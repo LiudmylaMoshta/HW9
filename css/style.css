@@ -2,6 +2,12 @@
 @font-face {
   font-family: "Code Light";
   src: url("../fonts/CODE Light.otf"); }
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/century-gothic.ttf"), url("../fonts/century_gothic.eot"); }
+html {
+  font-size: 10px; }
+
 body {
   font-size: 10px;
   border: 5px solid #ffffff;
@@ -26,11 +32,8 @@ body {
     margin-bottom: 0; }
     .navbar-scocov .nav-scocov .li-nav-scocov {
       color: black;
-      font-family: Code, serif;
-      font-size: 1.6em;
-      font-weight: 300;
+      font: 300 1.6em/3.2em Code, serif;
       text-transform: uppercase;
-      line-height: 3.2em;
       margin-top: 10px;
       margin-bottom: 10px; }
       .navbar-scocov .nav-scocov .li-nav-scocov a {
@@ -40,108 +43,194 @@ body {
           background-color: #ffea00; }
 
 .section-welcome {
-  width: 100%;
-  height: 80vh; }
-  .section-welcome .carousel-scocov .list-slide-scocov .item-slide-scocov .list-face-welcome {
-    background: url("../images/slider-bg.png") 100% no-repeat; }
-  .section-welcome .carousel-scocov .list-slide-scocov .item-slide-scocov h2 {
-    color: black;
-    font-family: "Century Gothic";
-    font-size: 7em;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: left; }
-  .section-welcome .carousel-scocov .list-slide-scocov .item-slide-scocov p {
-    color: white;
-    font-family: "Century Gothic";
-    font-size: 2.4em;
-    font-weight: 400;
-    text-align: left;
-    background: #3f3f44; }
-
-.section-designs .row-designs-scocov {
-  list-style-type: none;
-  display: inline; }
-
-.section-masonry-images .list-img-masonry .item-slide {
-  width: 320px;
-  height: 100%; }
-
-.section-clients .content-slide-scocov {
-  position: relative;
-  text-align: left;
-  margin: 5px auto;
   width: 100%; }
-  .section-clients .content-slide-scocov .leftbtn-client-scocov,
-  .section-clients .content-slide-scocov .rightbtn-client-scocov {
-    display: block;
-    position: absolute;
-    top: 50%;
-    z-index: 9999;
-    cursor: pointer;
-    text-align: center;
-    font: normal bold 48px/48px 'Advent Pro', sans-serif;
-    padding: 5px;
-    width: 30px;
-    height: 50px;
-    color: #000000; }
-  .section-clients .content-slide-scocov .leftbtn-client-scocov {
-    left: -50px;
-    /*расположение кнопки*/ }
-  .section-clients .content-slide-scocov .rightbtn-client-scocov {
-    right: -50px; }
-  .section-clients .content-slide-scocov .rightbtn-client-scocov:hover,
-  .section-clients .content-slide-scocov .leftbtn-client-scocov:hover {
-    color: #FFF;
+  .section-welcome .welcome-carousel .welcome-caption {
+    padding: 0;
+    font-family: "Century Gothic";
+    left: 50px;
+    right: 50px; }
+  .section-welcome .welcome-carousel .title-welcome {
+    margin-top: 0;
+    color: black;
+    font-size: 1.3rem;
+    text-align: left;
+    text-transform: uppercase; }
+    .section-welcome .welcome-carousel .title-welcome span {
+      margin: 0;
+      background-color: yellow;
+      display: inline-block; }
+  .section-welcome .welcome-carousel .welcome-left .btn-welcome {
+    background: #000000;
+    border-bottom: 1px solid #ffeb00;
+    color: #ffffff;
+    font-size: 1rem; }
+  .section-welcome .welcome-carousel .text-welcome {
+    font-size: 0.6em; }
+    .section-welcome .welcome-carousel .text-welcome span {
+      background-color: #3f3f44; }
+  .section-welcome .welcome-carousel .leftbtn-client-scocov, .section-welcome .welcome-carousel .rightbtn-client-scocov {
+    background-color: black;
     opacity: 1;
-    text-decoration: none; }
-.section-clients .simple-slider-scocov {
+    width: 30px;
+    font-size: 2.1rem;
+    font-weight: lighter;
+    bottom: auto;
+    top: calc(50% - 15px);
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+.section-designs {
+  text-align: center;
+  color: #424147;
+  font-family: "Century Gothic"; }
+  .section-designs .title-designs-scocov {
+    font: 2.5rem/2.1rem "Century Gothic";
+    text-transform: uppercase; }
+  .section-designs .text-designs-scocov {
+    font: 1.4rem/3.1rem "Century Gothic"; }
+  .section-designs .row-designs-scocov {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0; }
+    .section-designs .row-designs-scocov .col-designs-scocov {
+      position: relative; }
+      .section-designs .row-designs-scocov .col-designs-scocov .img-designs-scocov {
+        width: 100%;
+        padding-top: 15px; }
+        .section-designs .row-designs-scocov .col-designs-scocov .img-designs-scocov:hover {
+          content: url("../images/hover.png");
+          position: absolute;
+          top: 0;
+          left: 0; }
+
+.title-line {
   overflow: hidden; }
-  .section-clients .simple-slider-scocov .img-slade-scocov {
-    left: 0;
-    top: 0;
-    width: 140px;
-    border: 1px solid #ffffff;
-    margin-left: 39px;
-    margin-top: 10px; }
-    .section-clients .simple-slider-scocov .img-slade-scocov:first-child {
-      margin-left: 5px; }
+  .title-line:before, .title-line:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    height: 3px;
+    background: #cacaca;
+    border: 1px solid #cacaca; }
+  .title-line:before {
+    margin-left: -100%; }
+  .title-line:after {
+    margin-right: -100%; }
+
+.section-masonry-images {
+  text-align: center; }
+  .section-masonry-images .title-image-scocov {
+    color: #ffea00;
+    font: 1.8rem/2.1rem "Century Gothic";
+    text-transform: uppercase;
+    margin-bottom: 41px;
+    margin-top: 90px; }
+    .section-masonry-images .title-image-scocov span {
+      background: #403f46;
+      margin: 0 5px; }
+  .section-masonry-images .text-image-scocov {
+    color: #424146;
+    font: 1.6rem/2.1rem "Century Gothic";
+    margin-bottom: 40px; }
+  .section-masonry-images .item-slide {
+    margin: 2px 3px 3px 2px; }
+    .section-masonry-images .item-slide .grid-item {
+      width: 100%; }
+
+.section-clients {
+  text-align: center; }
+  .section-clients .title-clients-scocov {
+    color: #ffea00;
+    font: 1.8rem/2.1rem "Century Gothic";
+    text-transform: uppercase;
+    margin-bottom: 41px;
+    margin-top: 90px; }
+    .section-clients .title-clients-scocov span {
+      background: #403f46;
+      margin: 0 5px; }
+  .section-clients .text-clients-scocov {
+    color: #424146;
+    font: 1.6rem/2.1rem "Century Gothic";
+    margin-bottom: 40px; }
+  .section-clients .content-slide-scocov {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin: 5px auto;
+    width: 100%;
+    padding: 50px 0; }
+    .section-clients .content-slide-scocov .leftbtn-client-scocov,
+    .section-clients .content-slide-scocov .rightbtn-client-scocov {
+      display: block;
+      position: absolute;
+      z-index: 9999;
+      cursor: pointer;
+      text-align: center;
+      font-size: 4.8rem;
+      width: 30px;
+      color: #ffffff;
+      margin: -30px 0;
+      background: #000000; }
+    .section-clients .content-slide-scocov .leftbtn-client-scocov {
+      left: 0;
+      /*расположение кнопки*/ }
+    .section-clients .content-slide-scocov .rightbtn-client-scocov {
+      right: 0; }
+    .section-clients .content-slide-scocov .rightbtn-client-scocov:hover,
+    .section-clients .content-slide-scocov .leftbtn-client-scocov:hover {
+      color: #FFF;
+      opacity: 1;
+      text-decoration: none; }
+  .section-clients .simple-slider-scocov {
+    text-align: center;
+    overflow: hidden; }
+    .section-clients .simple-slider-scocov .img-slade-scocov {
+      text-align: center;
+      padding: 25px 0;
+      position: absolute;
+      left: 90px;
+      top: 0;
+      width: 140px;
+      margin: 0; }
 
 #footer {
-  font-family: "Century Gothic";
+  padding: 15px;
+  font: 1.3rem/2.1rem "Century Gothic";
   text-align: center;
   background: #3f3f44;
-  font-size: 1.3rem;
   color: #ffffff; }
-  #footer .container .row-footer-scocov {
+  #footer .row-footer-scocov {
     list-style-type: none;
     -moz-padding-start: 0;
     -webkit-padding-start: 0;
     -khtml-padding-start: 0;
     -o-padding-start: 0;
     padding-start: 0; }
-  #footer .container .icon-footer-scocov {
+  #footer .icon-footer-scocov {
     width: 2.8rem;
     padding: 0.75rem 0;
     background: #000000; }
-  #footer .container .yellow {
+  #footer .yellow {
     color: #ffeb00; }
-  #footer .container h3 {
+  #footer h3 {
     font-size: 1.8rem; }
-  #footer .container p {
+  #footer p {
     font-family: "Century Gothic";
     font-weight: 400;
     line-height: 2.1rem; }
 
-.col-scocov-about div {
-  width: 121px;
+.col-scocov-about .footer-btn-container {
   background-color: black;
   border-bottom: 1px solid #ffeb00;
   display: inline-block; }
-  .col-scocov-about div .btn-learn-more {
+  .col-scocov-about .footer-btn-container .btn-learn-more {
     color: #ffffff;
     font-size: 1.5rem;
     padding: 1.3rem 1.8rem; }
+.col-scocov-about .row-footer-img-container {
+  margin: 0; }
 .col-scocov-about .img-scocov-about {
   padding: 0.2rem; }
 
@@ -153,12 +242,13 @@ body {
 .col-scocov-tweets .footer-social-connecting {
   display: inline-block;
   list-style-type: none;
-  width: 100%;
-  padding-left: 0; }
-  .col-scocov-tweets .footer-social-connecting li {
-    display: inline-block; }
-    .col-scocov-tweets .footer-social-connecting li a {
-      color: #ffffff; }
+  width: 100%; }
+  .col-scocov-tweets .footer-social-connecting ul {
+    padding-left: 0; }
+    .col-scocov-tweets .footer-social-connecting ul li {
+      display: inline-block; }
+      .col-scocov-tweets .footer-social-connecting ul li a {
+        color: #ffffff; }
 
 .col-scocov-contact .form-scocov .input-footer-scocov {
   border: none;
@@ -179,7 +269,6 @@ body {
       width: 2.8rem;
       padding: 0.7rem 0; }
 
-/*для изображений сразу задаем необходимые размеры*/
 @media (min-width: 993px) {
   body {
     font-size: 14px; }
@@ -191,21 +280,179 @@ body {
     padding: 25px 10px;
     margin: 50px 0 31px 50px; }
 
+  .section-welcome {
+    width: 100%; }
+    .section-welcome .welcome-carousel .welcome-caption {
+      font-family: "Century Gothic";
+      left: 50px;
+      right: 50px; }
+    .section-welcome .welcome-carousel .text-welcome {
+      width: 60%;
+      text-align: left;
+      color: white;
+      font: 2.4rem/3.3rem "Century Gothic"; }
+    .section-welcome .welcome-carousel .title-welcome {
+      font-size: 4.375em;
+      color: black;
+      text-align: left;
+      text-transform: uppercase; }
+      .section-welcome .welcome-carousel .title-welcome span {
+        margin-top: 5px;
+        background-color: yellow;
+        display: inline-block; }
+    .section-welcome .welcome-carousel .welcome-left {
+      text-align: right; }
+      .section-welcome .welcome-carousel .welcome-left .btn-welcome {
+        background: #000000;
+        border-bottom: 1px solid #ffeb00;
+        color: #ffffff;
+        font-size: 2rem; }
+    .section-welcome .welcome-carousel .img-welcome {
+      width: 45%; }
+
+  .section-clients .content-slide-scocov {
+    padding: 0;
+    position: relative;
+    text-align: left;
+    margin: 0;
+    width: 100%; }
+    .section-clients .content-slide-scocov .leftbtn-client-scocov,
+    .section-clients .content-slide-scocov .rightbtn-client-scocov {
+      position: absolute;
+      top: 50%;
+      z-index: 9999;
+      cursor: pointer;
+      text-align: center;
+      font: normal bold 4.8rem/4.8rem 'Advent Pro', sans-serif;
+      padding: 5px;
+      width: 30px;
+      color: #ffffff; }
+    .section-clients .content-slide-scocov .leftbtn-client-scocov {
+      left: 0;
+      /*расположение кнопки*/ }
+    .section-clients .content-slide-scocov .rightbtn-client-scocov {
+      right: 0; }
+  .section-clients .simple-slider-scocov {
+    overflow: hidden; }
+    .section-clients .simple-slider-scocov .img-slade-scocov {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 130px;
+      margin: 5px; }
+
   #footer {
     padding-top: 30px; }
-    #footer .col-scocov-about {
-      width: 410px;
+    #footer .row-footer-scocov {
+      margin: 0 7.4%; }
+      #footer .row-footer-scocov .col-scocov-about {
+        width: 27.1%;
+        text-align: left;
+        padding: 0; }
+        #footer .row-footer-scocov .col-scocov-about .title-about {
+          margin-top: 46px;
+          margin-bottom: 24px; }
+      #footer .row-footer-scocov .col-scocov-tweets {
+        width: 35.4%;
+        text-align: left;
+        padding: 0;
+        margin-left: 3%; }
+        #footer .row-footer-scocov .col-scocov-tweets .row-tweets {
+          margin: 0; }
+          #footer .row-footer-scocov .col-scocov-tweets .row-tweets .col-twitter {
+            margin: 0; }
+        #footer .row-footer-scocov .col-scocov-tweets .footer-social-connecting {
+          display: inline-block;
+          width: 450px;
+          margin-top: 30px;
+          padding-bottom: 25px; }
+        #footer .row-footer-scocov .col-scocov-tweets .icon-footer-scocov {
+          text-align: center; }
+      #footer .row-footer-scocov .col-scocov-contact {
+        width: 32.5%;
+        margin-left: 2%; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 15px; }
+
+  .navbar-scocov .brand-scocov .img-logo {
+    height: 100%; }
+
+  .section-welcome {
+    width: 100%; }
+    .section-welcome .welcome-carousel .welcome-caption {
+      font-family: "Century Gothic";
+      left: 50px;
+      right: 50px; }
+    .section-welcome .welcome-carousel .title-welcome {
+      font-size: 2em;
+      color: black;
       text-align: left;
+      text-transform: uppercase; }
+      .section-welcome .welcome-carousel .title-welcome span {
+        margin: 5px -50px 0 50px;
+        background-color: yellow;
+        display: inline-block; }
+    .section-welcome .welcome-carousel .welcome-left .btn-welcome {
+      font-size: 1.5rem; }
+    .section-welcome .welcome-carousel .text-welcome {
+      background-color: #3f3f44;
+      font-size: 1.5rem; }
+    .section-welcome .welcome-carousel .leftbtn-client-scocov, .section-welcome .welcome-carousel .rightbtn-client-scocov {
+      background-color: black;
+      opacity: 1;
+      width: 30px;
+      bottom: auto;
+      top: calc(50% - 15px);
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .section-welcome .welcome-carousel .leftbtn-client-scocov span, .section-welcome .welcome-carousel .rightbtn-client-scocov span {
+        font-size: 2.1rem;
+        font-weight: lighter; }
+
+  .section-designs .row-designs-scocov {
+    padding-left: 0; }
+    .section-designs .row-designs-scocov .col-designs-scocov .img-designs-scocov {
+      width: 100%;
+      padding-top: 0; }
+
+  .section-clients .content-slide-scocov {
+    padding: 0;
+    position: relative;
+    text-align: left;
+    margin: 0;
+    width: 100%; }
+    .section-clients .content-slide-scocov .leftbtn-client-scocov,
+    .section-clients .content-slide-scocov .rightbtn-client-scocov {
+      position: absolute;
+      top: 50%;
+      z-index: 9999;
+      cursor: pointer;
+      text-align: center;
+      width: 30px;
+      color: #ffffff; }
+  .section-clients .simple-slider-scocov {
+    overflow: hidden;
+    height: 120px; }
+    .section-clients .simple-slider-scocov .img-slade-scocov {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 130px;
+      margin: 5px; }
+
+  #footer {
+    padding-top: 30px; }
+    #footer .col-scocov-about .col-twitter {
       padding: 0; }
-      #footer .col-scocov-about .title-about {
-        margin-top: 46px;
-        margin-bottom: 24px; }
+    #footer .col-scocov-about .title-about {
+      margin-top: 46px;
+      margin-bottom: 24px; }
     #footer .col-scocov-tweets {
-      width: 409px;
-      text-align: left; }
+      width: 300px; }
       #footer .col-scocov-tweets .footer-social-connecting {
         display: inline-block;
-        width: 430px;
+        width: 300px;
         margin-top: 50px; }
         #footer .col-scocov-tweets .footer-social-connecting h4 {
           display: inline-block; }
@@ -215,21 +462,6 @@ body {
       #footer .col-scocov-tweets .icon-footer-scocov {
         text-align: center; }
     #footer .col-scocov-contact {
-      width: 319px; } }
-@media (min-width: 768px) and (max-width: 992px) {
-  body {
-    font-size: 14px; }
-
-  .navbar-scocov .brand-scocov .img-logo {
-    height: 100%; } }
-@media (min-width: 768px) and (max-width: 992px) and (min-width: 576px) and (max-width: 767px) {
-  body {
-    font-size: 14px; }
-
-  .navbar-scocov .brand-scocov .img-logo {
-    height: 100%; }
-
-  .navbar-scocov .brand-scocov .img-logo {
-    height: 100%; } }
+      width: 33%; } }
 
 /*# sourceMappingURL=style.css.map */

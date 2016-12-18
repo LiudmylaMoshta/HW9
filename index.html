@@ -7,7 +7,6 @@
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,173 +38,153 @@
     </nav>
 </header>
 <section class="section-welcome">
-    <!-- Карусель -->
-    <div id="myCarousel" class="carousel slide carousel-scocov" data-interval="3000" data-ride="carousel">
-        <!-- Индикаторы для карусели -->
+    <div id="carousel-example-generic" class="carousel slide welcome-carousel" data-ride="carousel">
         <ol class="carousel-indicators">
-            <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         </ol>
-        <!-- Слайды карусели -->
-        <div class="carousel-inner list-slide-scocov">
-            <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
-            <div class="active item item-slide-scocov">
-                <div class="list list-face-welcome">
-                    <div class="item ">
-                        <img class="element-item persent-size" src="images/slide-img-1.png" alt="" />
-                    </div>
-                    <div class="item">
-                        <img class="element-item persent-size" src="images/slide-img-2.png" alt="" />
-                    </div>
-                    <div class="item">
-                        <img class="element-item persent-size" src="images/slide-img-3.png" alt="" />
-                    </div>
-                    <div class="item">
-                        <img class="element-item persent-size" src="images/slide-img-4.png" alt="" />
-                    </div>
-                    <div class="item">
-                        <img class="element-item persent-size" src="images/slide-img-5.png" alt="" />
-                    </div>
-                    <div class="item">
-                        <img  class="element-item persent-size" src="images/slide-img-6.png" alt="" />
-                    </div>
-                    <div class="item">
-                        <img class="element-item persent-size" src="images/slide-img-7.png" alt="" />
-                    </div>
-                    <div class="item">
-                        <img class="element-item persent-size" src="images/slide-img-8.png" alt="" />
-                    </div>
-                    <div class="item">
-                        <img class="element-item persent-size" src="images/slide-img-9.png" alt="" />
-                    </div>
-                    <div class="item">
-                        <img class="element-item persent-size" src="images/slide-img-10.png" alt="" />
-                    </div>
-                    <a href="#">Order Now</a>
-                </div>
 
-                <div class="carousel-caption">
-                    <h2>We believe
-                        in quality design</h2>
-                    <p>Any creative project is unique
-                        and should be provided with
-                        the appropriate quality</p>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/slider-bg.png" alt="slider">
+                <div class="carousel-caption welcome-caption row">
+
+                    <div class="welcome-left col-xs-6 col-sm-6">
+                        <h2 class="title-welcome">
+                            <span>
+                                We believe
+                            </span>
+                            <span>
+                                in quality design
+                            </span>
+                        </h2>
+                        <p class="text-welcome">
+                            <span>Any creative project is unique
+                                and should be provided with
+                                the appropriate quality</span>
+                        </p>
+                        <a href="#" class="btn-welcome">Order Now</a>
+                    </div>
+                    <img src="images/face.png" class="img-welcome col-xs-6 col-sm-6" alt="person">
                 </div>
             </div>
-            <!-- Слайд №2 -->
             <div class="item">
-                <img src="images/slider-bg.png">
+                <img src="images/slider-bg.png" alt="slider">
+                <div class="carousel-caption welcome-caption row">
 
-                <div class="carousel-caption">
-                    <h2>We believe
-                        in quality design</h2>
-                    <p>Any creative project is unique
-                        and should be provided with
-                        the appropriate quality</p>
-                </div>
-            </div>
-            <!-- Слайд №3 -->
-            <div class="item">
-                <img src="images/slider-bg.png">
-
-                <div class="carousel-caption">
-                    <h2>We believe
-                        in quality design</h2>
-                    <p>Any creative project is unique
-                        and should be provided with
-                        the appropriate quality</p>
+                    <div class="welcome-left col-xs-6 col-sm-6">
+                        <h2 class="title-welcome">
+                            <span>
+                                We believe
+                            </span>
+                            <span>
+                                in quality design
+                            </span>
+                        </h2>
+                        <p class="text-welcome">
+                            <span>Any creative project is unique
+                                and should be provided with
+                                the appropriate quality</span>
+                        </p>
+                        <a href="#" class="btn-welcome">Order Now</a>
+                    </div>
+                    <img src="images/face.png" class="img-welcome col-xs-6 col-sm-6" alt="person">
                 </div>
             </div>
         </div>
-        <!-- Навигация для карусели -->
-        <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
+
+        <a class="left carousel-control leftbtn-client-scocov" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="fa fa-chevron-left" aria-hidden="true"></span>
         </a>
-        <!-- Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
+        <a class="right carousel-control rightbtn-client-scocov" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="fa fa-chevron-right" aria-hidden="true"></span>
         </a>
     </div>
 </section>
+
+
 <section class="section-designs">
-    <h2>We create quality designs.</h2>
-    <h3>We specialize in Web Design / Development and Graphic Design</h3>
+    <h2 class="title-designs-scocov">We create quality designs.</h2>
+    <p class="text-designs-scocov">We specialize in Web Design / Development and Graphic Design</p>
     <ul class="row row-designs-scocov">
         <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-scocov">
-            <img src="images/1-column.png" alt="Redesigning" class="img-designs-scocov"/>
+            <img src="images/1-column.png" alt="Redesigning" class="img-responsive img-designs-scocov"/>
         </li>
         <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-scocov">
-            <img src="images/2-column.png" alt="web development" class="img-designs-scocov"/>
+            <img src="images/2-column.png" alt="web development" class="img-responsive img-designs-scocov"/>
         </li>
         <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-scocov">
-            <img src="images/3-column.png" alt="web design" class="img-designs-scocov"/>
+            <img src="images/3-column.png" alt="web design" class="img-responsive img-designs-scocov"/>
         </li>
         <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-scocov">
-            <img src="images/4-column.png" alt="graphic design" class="img-designs-scocov"/>
+            <img src="images/4-column.png" alt="graphic design" class="img-responsive img-designs-scocov"/>
         </li>
     </ul>
 </section>
 
-<!--<section class="section-masonry-images">-->
-    <!--<h2>-->
-        <!--our work-->
-    <!--</h2>-->
-    <!--<p>-->
-        <!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.-->
-    <!--</p>-->
-    <!--<div class="list list-img-masonry">-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass1.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass2.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass3.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass4.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass5.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img  class="grid-item persent-size" src="images/mass6.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass7.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass9.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass10.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass11.png" alt="" />-->
-        <!--</div>-->
-        <!--<div class="item item-slide">-->
-            <!--<img class="grid-item persent-size" src="images/mass12.png" alt="" />-->
-        <!--</div>-->
-    <!--</div>-->
-
-<!--</section>-->
-<section class="container section-clients">
-    <h2>
-        our clients
+<section class="section-masonry-images container-fluid">
+    <h2 class="title-image-scocov title-line">
+        <span> our work </span>
     </h2>
-    <p>
+    <p class="text-image-scocov">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
+    </p>
+
+
+    <div class="list list-img-masonry">
+        <div class="item item-slide">
+            <img class="grid-item persent-size" src="images/mass1.png" alt="" />
+        </div>
+        <div class="item item-slide">
+            <img class="grid-item persent-size" src="images/mass2.png" alt="" />
+        </div>
+        <div class="item item-slide">
+            <img class="grid-item persent-size" src="images/mass3.png" alt="" />
+        </div>
+        <div class="item item-slide">
+            <img class="grid-item persent-size" src="images/mass4.png" alt="" />
+        </div>
+        <div class="item item-slide grid-sizer">
+            <img class="grid-item persent-size" src="images/mass5.png" alt="" />
+        </div>
+        <div class="item item-slide">
+            <img  class="grid-item persent-size" src="images/mass6.png" alt="" />
+        </div>
+        <div class="item item-slide">
+            <img class="grid-item persent-size" src="images/mass7.png" alt="" />
+        </div>
+        <div class="item item-slide">
+            <img class="grid-item persent-size" src="images/mass9.png" alt="" />
+        </div>
+        <div class="item item-slide">
+            <img class="grid-item persent-size grid-sizer" src="images/mass10.png" alt="" />
+        </div>
+        <div class="item item-slide">
+            <img class="grid-item persent-size" src="images/mass11.png" alt="" />
+        </div>
+        <div class="item item-slide">
+            <img class="grid-item persent-size" src="images/mass12.png" alt="" />
+        </div>
+    </div>
+
+</section>
+<section class="section-clients">
+    <h2 class="title-clients-scocov title-line">
+        <span>
+            our clients
+        </span>
+    </h2>
+    <p class="text-clients-scocov">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
     </p>
     <div class="content content-slide-scocov">
         <!--элементы навигации - кнопки "влево" и "вправо", дополнительные свойства запрещают выделение кнопок-->
-        <a onselectstart="return false" onmousedown="return false" class="left_button leftbtn-client-scocov">&lt;</a>
-        <a onselectstart="return false" onmousedown="return false" class="right_button rightbtn-client-scocov">&gt;</a>
+        <a onselectstart="return false" onmousedown="return false" class="left_button leftbtn-client-scocov">
+            <span class="fa fa-chevron-left"></span>
+        </a>
+        <a onselectstart="return false" onmousedown="return false" class="right_button rightbtn-client-scocov">
+            <span class="fa fa-chevron-right"></span>
+        </a>
         <div id="simple_slider" class="simple-slider-scocov">
             <img src="images/client-BBC.png" alt="logo-BBC" class="img-slade-scocov"/>
             <img src="images/client-virgin.png" alt="logo of Virgin" class="img-slade-scocov"/>
@@ -217,180 +196,198 @@
             <img src="images/client-wiexa.png" alt="logo of WIEXA" class="img-slade-scocov"/>
         </div>
     </div>
-
 </section>
 
 <footer id="footer">
-    <div class="container">
-        <ul class="row row-footer-scocov">
-            <li class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-scocov-about">
-                <h3>About Us</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                    sed diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat. Ut wisi
-                    enim ad minim veniam, quis nostrud exerci tation ullamcorper
-                    suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                <div>
-                    <a href="#" class="btn-learn-more">Learn more</a>
-                </div>
-                <h3 class="title-about">Photo Stream</h3>
-                <img src="images/footer-img-girl.png" class="img-scocov-about" alt="image-color">
-                <img src="images/footer-image-face.png" class="img-scocov-about" alt="image-face">
-                <img src="images/footer-image-horse.png" class="img-scocov-about" alt="image-horse">
-                <img src="images/footer-image-color.png" class="img-scocov-about" alt="image-color">
-                <img src="images/footer-image-line.png" class="img-scocov-about" alt="image-line">
-                <img src="images/footer-image.png" class="img-scocov-about" alt="image">
-            </li>
-            <li class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-scocov-tweets">
-                <h3>Latest tweets</h3>
-                <div class="row">
-                    <div class="col-xs-1 col-md-1 ">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-xs-10 col-md-11">
-                        <p>Check Out Dtbaker's <span class="yellow">@Arduino</span> Sales Notification <span class="yellow">#System</span>
-                        http://t.co/ WBFKIWHJ</p>
-                        <span class="yellow days">3 days ago</span>
-                    </div>
-                    <div class="col-xs-1 col-md-1">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-xs-10 col-md-11">
-                        <p>Community Superstar Winner – <span class="yellow"> #OrganicBeeMedia</span>
-                            http://t.co/2Fs1nnMj</p>
-                        <span class="yellow days"> 3 days ago</span>
-                    </div>
-                    <div class="col-xs-1 col-md-1">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-xs-10 col-md-11">
-                        <p>Clean <span class="yellow">#Websites</span> Designs for Your <span class="yellow">#Inspiration</span>
-                            http://t.co/ SnRKu3HJ</p>
-                        <span class="yellow days"> 5 days ago</span>
-                    </div>
-                    <div class="col-xs-1 col-md-1">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-xs-10 col-md-11">
-                        <p>Cute Online <span class="yellow">#Shops</span> http://t.co/ 1PoQN3bJ</p>
-                        <span class="yellow days"> 6 days ago</span>
-                    </div>
-                    <div class="col-xs-1 col-md-1">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-xs-10 col-md-11">
-                        <p>Download 40 vector <span class="yellow">#icons</span> package for #FREE
-                            http://t.co/2Fp5GLqn </p>
-                        <span class="yellow days"> 6 days ago</span>
-                    </div>
-                </div>
-                <div class="footer-social-connecting">
-                    <h4>Social Connecting</h4>
-                    <ul>
-                        <li>
-                            <a href="http://facebook.com">
-                                <i class="fa fa-facebook icon-footer-scocov" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/">
-                                <i class="fa fa-google-plus icon-footer-scocov"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://twitter.com">
-                                <i class="fa fa-twitter icon-footer-scocov" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/">
-                                <i class="fa fa-linkedin icon-footer-scocov" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://youtube.com">
-                                <i class="fa fa-youtube icon-footer-scocov" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://twitter.com">
-                                <i class="fa fa-twitter icon-footer-scocov" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-rss icon-footer-scocov" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/">
-                                <i class="fa fa-dribbble icon-footer-scocov"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <ul class="row row-footer-scocov">
+        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-scocov-about">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat. Ut wisi
+                enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="footer-btn-container">
+                <a href="#" class="btn-learn-more">Learn more</a>
+            </div>
+            <h3 class="title-about">Photo Stream</h3>
+            <div class="row row-footer-img-container">
+                <img src="images/footer-img-girl.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-color">
+                <img src="images/footer-image-face.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-face">
+                <img src="images/footer-image-horse.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-horse">
+                <img src="images/footer-image-color.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-color">
+                <img src="images/footer-image-line.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-line">
+                <img src="images/footer-image.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image">
+            </div>
 
-            </li>
-            <li class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-scocov-contact">
-                <h3>Contact info</h3>
-                <address class="address-scocov">
-                    <dl class="row">
-                        <dt class="col-xs-1">
-                            <i class="fa fa-map-marker icon-footer-scocov" aria-hidden="true"></i>
-                        </dt>
-                        <dd class="col-xs-10">
-                            Address: 12569 Saint Patrick des Prés,
-                            85000 Paris, France
-                        </dd>
-                        <dt class="col-xs-1">
-                            <i class="fa fa-whatsapp icon-footer-scocov" aria-hidden="true"></i>
-                        </dt>
-                        <dd class="col-xs-10">
-                            Phone: +38 045 845-45-78
-                            +38 045 845-45-79
-                        </dd>
-                        <dt class="col-xs-1">
-                            <i class="fa fa-envelope icon-footer-scocov" aria-hidden="true"></i>
-                        </dt>
-                        <dd class="col-xs-10">
-                            E-mail: <span class="yellow">freeforwebdesign@gmail.com</span>
-                        </dd>
-                    </dl>
+        </li>
+        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-scocov-tweets">
+            <h3>Latest tweets</h3>
+            <div class="row row-tweets">
+                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class="col-xs-10 col-sm-10 col-md-11 col-twitter">
+                    <p>Check Out Dtbaker's <span class="yellow">@Arduino</span> Sales Notification <span class="yellow">#System</span>
+                    http://t.co/ WBFKIWHJ</p>
+                    <span class="yellow days">3 days ago</span>
+                </div>
+                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter ">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class="col-xs-10 col-sm-11 col-md-11 col-twitter">
+                    <p>Community Superstar Winner – <span class="yellow"> #OrganicBeeMedia</span>
+                        http://t.co/2Fs1nnMj</p>
+                    <span class="yellow days"> 3 days ago</span>
+                </div>
+                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class="col-xs-10 col-sm-11 col-md-11 col-twitter">
+                    <p>Clean <span class="yellow">#Websites</span> Designs for Your <span class="yellow">#Inspiration</span>
+                        http://t.co/ SnRKu3HJ</p>
+                    <span class="yellow days"> 5 days ago</span>
+                </div>
+                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class="col-xs-10 col-sm-11 col-md-11 col-twitter">
+                    <p>Cute Online <span class="yellow">#Shops</span> http://t.co/ 1PoQN3bJ</p>
+                    <span class="yellow days"> 6 days ago</span>
+                </div>
+                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class="col-xs-10 col-sm-11 col-md-11 col-twitter">
+                    <p>Download 40 vector <span class="yellow">#icons</span> package for #FREE
+                        http://t.co/2Fp5GLqn </p>
+                    <span class="yellow days"> 6 days ago</span>
+                </div>
+            </div>
+            <div class="footer-social-connecting">
+                <h4>Social Connecting</h4>
+                <ul>
+                    <li>
+                        <a href="http://facebook.com">
+                            <i class="fa fa-facebook icon-footer-scocov" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/">
+                            <i class="fa fa-google-plus icon-footer-scocov"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com">
+                            <i class="fa fa-twitter icon-footer-scocov" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/">
+                            <i class="fa fa-linkedin icon-footer-scocov" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://youtube.com">
+                            <i class="fa fa-youtube icon-footer-scocov" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com">
+                            <i class="fa fa-twitter icon-footer-scocov" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-rss icon-footer-scocov" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/">
+                            <i class="fa fa-dribbble icon-footer-scocov"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-                </address>
-                <h3>Follow Us</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry.</p>
-                <form class="form-scocov">
-                    <div class="input-group">
-                        <input type="text" class="form-control input-footer-scocov" placeholder="I">
-                        <span class="input-group-btn input-group-btn-scocov">
-                            <button class="btn btn-footer-scocov" type="button">
-                                <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
-                            </button>
-                        </span>
-                    </div>
-                </form>
-            </li>
-        </ul>
-    </div>
+        </li>
+        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-scocov-contact">
+            <h3>Contact info</h3>
+            <address class="address-scocov">
+                <dl class="row">
+                    <dt class="col-xs-1 col-sm-1 col-sm-offset-1">
+                        <i class="fa fa-map-marker icon-footer-scocov" aria-hidden="true"></i>
+                    </dt>
+                    <dd class="col-xs-10 col-sm-10 ">
+                        Address: 12569 Saint Patrick des Prés,
+                        85000 Paris, France
+                    </dd>
+                    <dt class="col-xs-1 col-sm-1 col-sm-offset-1">
+                        <i class="fa fa-whatsapp icon-footer-scocov" aria-hidden="true"></i>
+                    </dt>
+                    <dd class="col-xs-10 col-sm-10">
+                        Phone: +38 045 845-45-78
+                        +38 045 845-45-79
+                    </dd>
+                    <dt class="col-xs-1 col-sm-1 col-sm-offset-1">
+                        <i class="fa fa-envelope icon-footer-scocov" aria-hidden="true"></i>
+                    </dt>
+                    <dd class="col-xs-10 col-sm-10">
+                        E-mail: <span class="yellow">freeforwebdesign@gmail.com</span>
+                    </dd>
+                </dl>
+
+            </address>
+            <h3>Follow Us</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry.</p>
+            <form class="form-scocov">
+                <div class="input-group">
+                    <input type="text" class="form-control input-footer-scocov" placeholder="I">
+                    <span class="input-group-btn input-group-btn-scocov">
+                        <button class="btn btn-footer-scocov" type="button">
+                            <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </li>
+    </ul>
+    <nav class="navbar navbar-inverse navbar-scocov">
+        <div class="container">
+            <span class="footer-autor">
+                Copyright 2013 - FreeForWebDesign.com - All Rights Reserved
+            </span>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="li-nav-scocov"><a href="#home">HOME</a></li>
+                    <li class="li-nav-scocov"><a href="#portfolio">PORTFOLIO</a></li>
+                    <li class="li-nav-scocov"><a href="#blog">BLOG</a></li>
+                    <li class="li-nav-scocov"><a href="#about">ABOUT US</a></li>
+                    <li class="li-nav-scocov"><a href="#contact">CONTACT</a></li>
+                </ul>
+        </div>
+    </nav>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
-<!--<script src="js/scripts.js"></script>-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script>
     $(document).ready(function(){
-    // Инициализирует карусель
+        // Инициализирует карусель
         $(".start-slide").click(function() {
             $("#myCarousel2").carousel('cycle');
         });
     });
 
-    $( '.list' ).masonry( { itemSelector: '.item' } );
+    $('.list').masonry({
+        itemSelector: '.item',
+        columnWidth: '.grid-sizer',
+        percentPosition: true
+    });
 
+    //slader-client
     $(function(){
         $('a.left_button').click(function(){
             $('#simple_slider > :first-child').appendTo('#simple_slider'); //находит первый дочерний элемент в блоке и устанавливает его в конец списка
