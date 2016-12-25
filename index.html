@@ -5,51 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="lib/lightslider/css/lightslider.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header id="header">
-    <nav class="navbar navbar-default navbar-scocov">
+    <nav class="navbar navbar-default navbar-skokov">
         <div class="container">
-            <div class="navbar-header navbar-header-scocov">
-                <button type="button" class="navbar-toggle collapsed btn-collapsed-scocov" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <div class="navbar-header navbar-header-skokov">
+                <button type="button" class="navbar-toggle collapsed btn-collapsed-skokov" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand brand-scocov" href="#">
-                    <img src="images/logo.png" class=" img-logo" alt="logo"/>
-                </a>
+                <h1>
+                    <a class=" brand-skokov" href="#">
+                        <img src="images/logo.png" class="img-logo img-responsive" alt="logo"/>
+                    </a>
+                </h1>
+
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right nav-scocov">
-                    <li class="li-nav-scocov"><a href="#home">HOME</a></li>
-                    <li class="li-nav-scocov"><a href="#portfolio">PORTFOLIO</a></li>
-                    <li class="li-nav-scocov"><a href="#blog">BLOG</a></li>
-                    <li class="li-nav-scocov"><a href="#about">ABOUT US</a></li>
-                    <li class="li-nav-scocov"><a href="#contact">CONTACT</a></li>
+                <ul class="nav navbar-nav navbar-right nav-skokov">
+                    <li class="li-nav-skokov active"><a href="#home">HOME</a></li>
+                    <li class="li-nav-skokov"><a href="page-2.html">PORTFOLIO</a></li>
+                    <li class="li-nav-skokov"><a href="#blog">BLOG</a></li>
+                    <li class="li-nav-skokov"><a href="#about">ABOUT US</a></li>
+                    <li class="li-nav-skokov"><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
 <section class="section-welcome">
-    <div id="carousel-example-generic" class="carousel slide welcome-carousel" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <div id="carousel-example-generic" class="carousel slide welcome-carousel " data-ride="carousel">
+        <ol class="carousel-indicators carousel-indicators-skokov">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active "></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1" ></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         </ol>
-
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="images/slider-bg.png" alt="slider">
-                <div class="carousel-caption welcome-caption row">
-
-                    <div class="welcome-left col-xs-6 col-sm-6">
+        <div class="carousel-inner carousel-welcom-skokov" role="listbox">
+            <div class="item active item-welcome-skokov">
+                <div class=" row  welcome-caption">
+                    <div class="welcome-left col-xs-12 col-sm-6">
                         <h2 class="title-welcome">
                             <span>
                                 We believe
@@ -65,14 +67,51 @@
                         </p>
                         <a href="#" class="btn-welcome">Order Now</a>
                     </div>
-                    <img src="images/face.png" class="img-welcome col-xs-6 col-sm-6" alt="person">
+                    <div class="welcome-right col-xs-12 col-sm-6">
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-1.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-2.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-3.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-4.png" class="img-welcome img-responsive col-xs-offset-3 col-xs-3 col-sm-offset-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-5.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-6.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-7.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-8.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-9.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-10.png" class="img-welcome img-responsive col-xs-offset-3 col-xs-3 col-sm-offset-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="item">
-                <img src="images/slider-bg.png" alt="slider">
-                <div class="carousel-caption welcome-caption row">
-
-                    <div class="welcome-left col-xs-6 col-sm-6">
+            <div class="item  item-welcome-skokov">
+                <div class=" row  welcome-caption">
+                    <div class="welcome-left col-xs-12 col-sm-6">
                         <h2 class="title-welcome">
                             <span>
                                 We believe
@@ -88,315 +127,449 @@
                         </p>
                         <a href="#" class="btn-welcome">Order Now</a>
                     </div>
-                    <img src="images/face.png" class="img-welcome col-xs-6 col-sm-6" alt="person">
+                    <div class="welcome-right col-xs-12 col-sm-6">
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-1.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-2.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-3.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-4.png" class="img-welcome img-responsive col-xs-offset-3 col-xs-3 col-sm-offset-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-5.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-6.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-7.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-8.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-9.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-10.png" class="img-welcome img-responsive col-xs-offset-3 col-xs-3 col-sm-offset-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+        </div>
+            <div class="item item-welcome-skokov">
+                <div class=" row  welcome-caption">
+                    <div class="welcome-left col-xs-12 col-sm-6">
+                        <h2 class="title-welcome">
+                            <span>
+                                We believe
+                            </span>
+                            <span>
+                                in quality design
+                            </span>
+                        </h2>
+                        <p class="text-welcome">
+                            <span>Any creative project is unique
+                                and should be provided with
+                                the appropriate quality</span>
+                        </p>
+                        <a href="#" class="btn-welcome">Order Now</a>
+                    </div>
+                    <div class="welcome-right col-xs-12 col-sm-6">
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-1.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-2.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-3.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-4.png" class="img-welcome img-responsive col-xs-offset-3 col-xs-3 col-sm-offset-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-5.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-6.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-7.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-8.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                            <li>
+                                <img src="images/slide-img-9.png" class="img-welcome img-responsive col-xs-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                        <ul class="row">
+                            <li>
+                                <img src="images/slide-img-10.png" class="img-welcome img-responsive col-xs-offset-3 col-xs-3 col-sm-offset-3 col-sm-3" alt="person">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <a class="left carousel-control leftbtn-client-scocov" href="#carousel-example-generic" role="button" data-slide="prev">
+        <a class="left carousel-control leftbtn-client-skokov" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="fa fa-chevron-left" aria-hidden="true"></span>
         </a>
-        <a class="right carousel-control rightbtn-client-scocov" href="#carousel-example-generic" role="button" data-slide="next">
+        <a class="right carousel-control rightbtn-client-skokov" href="#carousel-example-generic" role="button" data-slide="next">
             <span class="fa fa-chevron-right" aria-hidden="true"></span>
         </a>
     </div>
 </section>
-
-
 <section class="section-designs">
-    <h2 class="title-designs-scocov">We create quality designs.</h2>
-    <p class="text-designs-scocov">We specialize in Web Design / Development and Graphic Design</p>
-    <ul class="row row-designs-scocov">
-        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-scocov">
-            <img src="images/1-column.png" alt="Redesigning" class="img-responsive img-designs-scocov"/>
+    <h1 class="title-designs-skokov">We create quality designs.</h1>
+    <p class="text-designs-skokov">We specialize in Web Design / Development and Graphic Design</p>
+    <ul class="row row-designs-skokov">
+        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-skokov">
+            <div class="img-designs">
+                <div class="content-static">
+                    <img src="images/web-design-icon.png" alt="Redesigning" class="img-designs-skokov"/>
+                    <h3>web design</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur.</p>
+                </div>
+                <div class="content-hover">
+                    <!--<img src="images/bottle.png" alt="Redesigning" class="img-responsive"/>-->
+                    <p>Redesigning With Personality</p>
+                </div>
+            </div>
         </li>
-        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-scocov">
-            <img src="images/2-column.png" alt="web development" class="img-responsive img-designs-scocov"/>
+        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-skokov">
+            <div class="img-designs">
+                <div class="content-static">
+                    <img src="images/web-development2.png"  alt="Redesigning" class=" img-designs-skokov"/>
+                    <h3>web development</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur.</p>
+                </div>
+                <div class="content-hover">
+                    <!--<img src="images/bottle2.png" alt="Redesigning" class="img-responsive"/>-->
+                    <p>Redesigning With Personality</p>
+                </div>
+            </div>
         </li>
-        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-scocov">
-            <img src="images/3-column.png" alt="web design" class="img-responsive img-designs-scocov"/>
+        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-skokov">
+            <div class="img-designs">
+                <div class="content-static">
+                    <img src="images/web-design-icon.png" alt="Redesigning" class="img-designs-skokov"/>
+                    <h3>web design</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur.</p>
+                </div>
+                <div class="content-hover">
+                    <!--<img src="images/bottle2.png" alt="Redesigning" class="img-responsive "/>-->
+                    <p>Redesigning With Personality</p>
+                </div>
+            </div>
         </li>
-        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-scocov">
-            <img src="images/4-column.png" alt="graphic design" class="img-responsive img-designs-scocov"/>
+        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-designs-skokov">
+            <div class="img-designs">
+                <div class="content-static">
+                    <img src="images/graphic-design-icon.png" alt="Redesigning" class="img-designs-skokov"/>
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur.</p>
+                </div>
+                <div class="content-hover">
+                    <!--<img src="images/bottle2.png" alt="Redesigning" class="img-responsive"/>-->
+                    <p>Redesigning With Personality</p>
+                </div>
+            </div>
         </li>
     </ul>
 </section>
-
 <section class="section-masonry-images container-fluid">
-    <h2 class="title-image-scocov title-line">
+    <h2 class="title-image-skokov title-line">
         <span> our work </span>
     </h2>
-    <p class="text-image-scocov">
+    <p class="text-image-skokov">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
     </p>
 
-
     <div class="list list-img-masonry">
         <div class="item item-slide">
-            <img class="grid-item persent-size" src="images/mass1.png" alt="" />
+            <img class="grid-item persent-size" src="images/mass1.png" alt="mass1" />
         </div>
         <div class="item item-slide">
-            <img class="grid-item persent-size" src="images/mass2.png" alt="" />
+            <img class="grid-item persent-size" src="images/mass2.png" alt="mass2" />
         </div>
         <div class="item item-slide">
-            <img class="grid-item persent-size" src="images/mass3.png" alt="" />
+            <img class="grid-item persent-size" src="images/mass3.png" alt="mass3" />
         </div>
         <div class="item item-slide">
-            <img class="grid-item persent-size" src="images/mass4.png" alt="" />
+            <img class="grid-item persent-size" src="images/mass4.png" alt="mass4" />
         </div>
         <div class="item item-slide grid-sizer">
-            <img class="grid-item persent-size" src="images/mass5.png" alt="" />
+            <img class="grid-item persent-size" src="images/mass5.png" alt="mass5" />
         </div>
         <div class="item item-slide">
-            <img  class="grid-item persent-size" src="images/mass6.png" alt="" />
+            <img  class="grid-item persent-size" src="images/mass6.png" alt="mass6" />
         </div>
         <div class="item item-slide">
-            <img class="grid-item persent-size" src="images/mass7.png" alt="" />
+            <img class="grid-item persent-size" src="images/mass7.png" alt="mass7" />
         </div>
         <div class="item item-slide">
-            <img class="grid-item persent-size" src="images/mass9.png" alt="" />
+            <img class="grid-item persent-size" src="images/mass9.png" alt="mass9" />
         </div>
         <div class="item item-slide">
-            <img class="grid-item persent-size grid-sizer" src="images/mass10.png" alt="" />
+            <img class="grid-item persent-size grid-sizer" src="images/mass10.png" alt="mass10" />
         </div>
         <div class="item item-slide">
-            <img class="grid-item persent-size" src="images/mass11.png" alt="" />
+            <img class="grid-item persent-size" src="images/mass11.png" alt="mass11" />
         </div>
         <div class="item item-slide">
-            <img class="grid-item persent-size" src="images/mass12.png" alt="" />
+            <img class="grid-item persent-size" src="images/mass12.png" alt="mass12" />
         </div>
     </div>
 
 </section>
 <section class="section-clients">
-    <h2 class="title-clients-scocov title-line">
+    <h2 class="title-clients-skokov title-line">
         <span>
             our clients
         </span>
     </h2>
-    <p class="text-clients-scocov">
+    <p class="text-clients-skokov">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
     </p>
-    <div class="content content-slide-scocov">
-        <!--элементы навигации - кнопки "влево" и "вправо", дополнительные свойства запрещают выделение кнопок-->
-        <a onselectstart="return false" onmousedown="return false" class="left_button leftbtn-client-scocov">
-            <span class="fa fa-chevron-left"></span>
-        </a>
-        <a onselectstart="return false" onmousedown="return false" class="right_button rightbtn-client-scocov">
-            <span class="fa fa-chevron-right"></span>
-        </a>
-        <div id="simple_slider" class="simple-slider-scocov">
-            <img src="images/client-BBC.png" alt="logo-BBC" class="img-slade-scocov"/>
-            <img src="images/client-virgin.png" alt="logo of Virgin" class="img-slade-scocov"/>
-            <img src="images/client-nokia.png" alt="logo of Nokia" class="img-slade-scocov"/>
-            <img src="images/client-apple.png" alt="logo of Apple" class="img-slade-scocov"/>
-            <img src="images/client-ford.png" alt="logo of Ford" class="img-slade-scocov"/>
-            <img src="images/client-w.png" alt="logo of W" class="img-slade-scocov"/>
-            <img src="images/client-company.png" alt="logo of Company" class="img-slade-scocov"/>
-            <img src="images/client-wiexa.png" alt="logo of WIEXA" class="img-slade-scocov"/>
+    <div class="content content-slide-skokov">
+        <div id="lightslider" class="simple-slider-skokov">
+            <img src="images/client-BBC.png" alt="logo-BBC" class="img-slade-skokov"/>
+            <img src="images/client-virgin.png" alt="logo of Virgin" class="img-slade-skokov"/>
+            <img src="images/client-nokia.png" alt="logo of Nokia" class="img-slade-skokov"/>
+            <img src="images/client-apple.png" alt="logo of Apple" class="img-slade-skokov"/>
+            <img src="images/client-ford.png" alt="logo of Ford" class="img-slade-skokov"/>
+            <img src="images/client-w.png" alt="logo of W" class="img-slade-skokov"/>
+            <img src="images/client-company.png" alt="logo of Company" class="img-slade-skokov"/>
+            <img src="images/client-wiexa.png" alt="logo of WIEXA" class="img-slade-skokov"/>
         </div>
+        <a class="leftbtn-client-skokov"><span class="fa fa-chevron-left"></span></a>
+        <a class="rightbtn-client-skokov"><span class="fa fa-chevron-right"></span></a>
     </div>
 </section>
-
-<footer id="footer">
-    <ul class="row row-footer-scocov">
-        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-scocov-about">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat. Ut wisi
-                enim ad minim veniam, quis nostrud exerci tation ullamcorper
-                suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-            <div class="footer-btn-container">
+<footer id="footer" class="container-fluid">
+    <div class="container">
+        <ul class="row row-footer-skokov">
+            <li class="col-xs-12 col-sm-3 col-md-4 col-lg-4 col-skokov-about">
+                <h3 class="title-footer">About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi
+                    enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                    suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
                 <a href="#" class="btn-learn-more">Learn more</a>
-            </div>
-            <h3 class="title-about">Photo Stream</h3>
-            <div class="row row-footer-img-container">
-                <img src="images/footer-img-girl.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-color">
-                <img src="images/footer-image-face.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-face">
-                <img src="images/footer-image-horse.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-horse">
-                <img src="images/footer-image-color.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-color">
-                <img src="images/footer-image-line.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image-line">
-                <img src="images/footer-image.png" class="col-xs-6 col-md-4 img-responsive img-scocov-about" alt="image">
-            </div>
+                <h3 class="title-footer title-about">Photo Stream</h3>
+                <ul class="row row-footer-img-container">
+                    <li class="col-xs-6 col-md-4">
+                        <img src="images/footer-img-girl.png" class="img-responsive img-skokov-about" alt="image-color">
+                    </li>
+                    <li class="col-xs-6 col-md-4">
+                        <img src="images/footer-image-face.png" class="img-responsive img-skokov-about" alt="image-face">
+                    </li>
+                    <li class="col-xs-6 col-md-4">
+                        <img src="images/footer-image-horse.png" class="img-responsive img-skokov-about" alt="image-horse">
+                    </li>
+                    <li class="col-xs-6 col-md-4">
+                        <img src="images/footer-image-color.png" class="img-responsive img-skokov-about" alt="image-color">
+                    </li>
+                    <li class="col-xs-6 col-md-4">
+                        <img src="images/footer-image-line.png" class="img-responsive img-skokov-about" alt="image-line">
+                    </li>
+                    <li class="col-xs-6 col-md-4">
+                        <img src="images/footer-image.png" class="img-responsive img-skokov-about" alt="image">
+                    </li>
 
-        </li>
-        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-scocov-tweets">
-            <h3>Latest tweets</h3>
-            <div class="row row-tweets">
-                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </div>
-                <div class="col-xs-10 col-sm-10 col-md-11 col-twitter">
-                    <p>Check Out Dtbaker's <span class="yellow">@Arduino</span> Sales Notification <span class="yellow">#System</span>
-                    http://t.co/ WBFKIWHJ</p>
-                    <span class="yellow days">3 days ago</span>
-                </div>
-                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter ">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </div>
-                <div class="col-xs-10 col-sm-11 col-md-11 col-twitter">
-                    <p>Community Superstar Winner – <span class="yellow"> #OrganicBeeMedia</span>
-                        http://t.co/2Fs1nnMj</p>
-                    <span class="yellow days"> 3 days ago</span>
-                </div>
-                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </div>
-                <div class="col-xs-10 col-sm-11 col-md-11 col-twitter">
-                    <p>Clean <span class="yellow">#Websites</span> Designs for Your <span class="yellow">#Inspiration</span>
-                        http://t.co/ SnRKu3HJ</p>
-                    <span class="yellow days"> 5 days ago</span>
-                </div>
-                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </div>
-                <div class="col-xs-10 col-sm-11 col-md-11 col-twitter">
-                    <p>Cute Online <span class="yellow">#Shops</span> http://t.co/ 1PoQN3bJ</p>
-                    <span class="yellow days"> 6 days ago</span>
-                </div>
-                <div class="col-xs-1 col-sm-1 col-sm-offset-1 col-md-1 col-twitter">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </div>
-                <div class="col-xs-10 col-sm-11 col-md-11 col-twitter">
-                    <p>Download 40 vector <span class="yellow">#icons</span> package for #FREE
-                        http://t.co/2Fp5GLqn </p>
-                    <span class="yellow days"> 6 days ago</span>
-                </div>
-            </div>
-            <div class="footer-social-connecting">
-                <h4>Social Connecting</h4>
-                <ul>
-                    <li>
-                        <a href="http://facebook.com">
-                            <i class="fa fa-facebook icon-footer-scocov" aria-hidden="true"></i>
-                        </a>
+                </ul>
+
+            </li>
+            <li class="col-xs-12 col-sm-5 col-md-4 col-lg-4 col-skokov-tweets">
+                <h3 class="title-footer">Latest tweets</h3>
+                <ul class="list-tweets">
+                    <li class="row">
+                        <i class="col-xs-1 fa fa-twitter fa-3x" aria-hidden="true"></i>
+                        <p class="col-text-tweets col-xs-10">
+                            Check Out Dtbaker's <span class="yellow">@Arduino</span> Sales Notification <span class="yellow">#System</span>
+                            <a href="/">http://t.co/ WBFKIWHJ</a>
+                            <span class="yellow days">3 days ago</span>
+                        </p>
+                    <li class="row">
+                        <i class="col-xs-1 fa fa-twitter fa-3x" aria-hidden="true"></i>
+                         <p class="col-text-tweets col-xs-10">
+                            Community Superstar Winner – <span class="yellow"> #OrganicBeeMedia</span>
+                            <a href="/">http://t.co/2Fs1nnMj</a>
+                            <span class="yellow days"> 3 days ago</span>
+                        </p>
                     </li>
-                    <li>
-                        <a href="https://plus.google.com/">
-                            <i class="fa fa-google-plus icon-footer-scocov"></i>
-                        </a>
+                    <li class="row">
+                        <i class="col-xs-1 fa fa-twitter fa-3x" aria-hidden="true"></i>
+                        <p class="col-text-tweets col-xs-10">
+                            Clean <span class="yellow">#Websites</span> Designs for Your <span class="yellow">#Inspiration</span>
+                            <a href="/">http://t.co/ SnRKu3HJ</a>
+                            <span class="yellow days"> 5 days ago</span>
+                        </p>
                     </li>
-                    <li>
-                        <a href="http://twitter.com">
-                            <i class="fa fa-twitter icon-footer-scocov" aria-hidden="true"></i>
-                        </a>
+                    <li class="row">
+                        <i class="col-xs-1 fa fa-twitter fa-3x" aria-hidden="true"></i>
+                        <p class="col-text-tweets col-xs-10">
+                            Cute Online <span class="yellow">#Shops</span>
+                            <a href="/">http://t.co/ 1PoQN3bJ</a>
+                            <span class="yellow days"> 6 days ago</span>
+                        </p>
                     </li>
-                    <li>
-                        <a href="https://linkedin.com/">
-                            <i class="fa fa-linkedin icon-footer-scocov" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://youtube.com">
-                            <i class="fa fa-youtube icon-footer-scocov" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://twitter.com">
-                            <i class="fa fa-twitter icon-footer-scocov" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-rss icon-footer-scocov" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/">
-                            <i class="fa fa-dribbble icon-footer-scocov"></i>
-                        </a>
+                    <li class="row">
+                        <i class="col-xs-1 fa fa-twitter fa-3x" aria-hidden="true"></i>
+                        <p class="col-text-tweets col-xs-10">
+                            Download 40 vector <span class="yellow">#icons</span> package for #FREE
+                            <a href="/">http://t.co/2Fp5GLqn</a>
+                            <span class="yellow days"> 6 days ago</span>
+                        </p>
                     </li>
                 </ul>
-            </div>
-
-        </li>
-        <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-scocov-contact">
-            <h3>Contact info</h3>
-            <address class="address-scocov">
-                <dl class="row">
-                    <dt class="col-xs-1 col-sm-1 col-sm-offset-1">
-                        <i class="fa fa-map-marker icon-footer-scocov" aria-hidden="true"></i>
-                    </dt>
-                    <dd class="col-xs-10 col-sm-10 ">
-                        Address: 12569 Saint Patrick des Prés,
-                        85000 Paris, France
-                    </dd>
-                    <dt class="col-xs-1 col-sm-1 col-sm-offset-1">
-                        <i class="fa fa-whatsapp icon-footer-scocov" aria-hidden="true"></i>
-                    </dt>
-                    <dd class="col-xs-10 col-sm-10">
-                        Phone: +38 045 845-45-78
-                        +38 045 845-45-79
-                    </dd>
-                    <dt class="col-xs-1 col-sm-1 col-sm-offset-1">
-                        <i class="fa fa-envelope icon-footer-scocov" aria-hidden="true"></i>
-                    </dt>
-                    <dd class="col-xs-10 col-sm-10">
-                        E-mail: <span class="yellow">freeforwebdesign@gmail.com</span>
-                    </dd>
-                </dl>
-
-            </address>
-            <h3>Follow Us</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing
-                and typesetting industry.</p>
-            <form class="form-scocov">
-                <div class="input-group">
-                    <input type="text" class="form-control input-footer-scocov" placeholder="I">
-                    <span class="input-group-btn input-group-btn-scocov">
-                        <button class="btn btn-footer-scocov" type="button">
+                <div class="footer-social-connecting">
+                    <h3 class="title-footer">Social Connecting</h3>
+                    <ul>
+                        <li>
+                            <a href="http://facebook.com" class="fa fa-facebook icon-footer-skokov" aria-hidden="true">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/">
+                                <i class="fa fa-google-plus icon-footer-skokov"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com">
+                                <i class="fa fa-twitter icon-footer-skokov" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/">
+                                <i class="fa fa-linkedin icon-footer-skokov" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://youtube.com">
+                                <i class="fa fa-youtube icon-footer-skokov" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com">
+                                <i class="fa fa-twitter icon-footer-skokov" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-rss icon-footer-skokov" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/">
+                                <i class="fa fa-dribbble icon-footer-skokov"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-skokov-contact">
+                <h3 class="title-footer">Contact info</h3>
+                <address class="address-skokov">
+                    <dl>
+                        <dt>
+                            <i class="fa fa-map-marker icon-footer-skokov" aria-hidden="true"></i>
+                            Address:
+                        </dt>
+                        <dd>12569 Saint Patrick des Prés,
+                            85000 Paris, France
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <i class="fa fa-whatsapp icon-footer-skokov" aria-hidden="true"></i>
+                            Phone:
+                        </dt>
+                        <dd>
+                            +38 045 845-45-78
+                            +38 045 845-45-79
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <i class="fa fa-envelope icon-footer-skokov" aria-hidden="true"></i>
+                            E-mail:
+                        </dt>
+                        <dd>
+                            freeforwebdesign@gmail.com
+                        </dd>
+                    </dl>
+                </address>
+                <h4 class="title-footer">Follow Us</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <form class="form-skokov">
+                    <div class="input-group">
+                        <input type="text" class="form-control input-footer-skokov" placeholder="I">
+                        <span class="input-group-btn input-group-btn-skokov">
+                        <button class="btn btn-footer-skokov" type="button">
                             <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
                         </button>
                     </span>
-                </div>
-            </form>
-        </li>
-    </ul>
-    <nav class="navbar navbar-inverse navbar-scocov">
+                    </div>
+                </form>
+            </li>
+        </ul>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-skokov-bottom">
         <div class="container">
-            <span class="footer-autor">
+            <div class="row">
+                <span class="col-xs-12 col-sm-4 footer-autor">
                 Copyright 2013 - FreeForWebDesign.com - All Rights Reserved
             </span>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="li-nav-scocov"><a href="#home">HOME</a></li>
-                    <li class="li-nav-scocov"><a href="#portfolio">PORTFOLIO</a></li>
-                    <li class="li-nav-scocov"><a href="#blog">BLOG</a></li>
-                    <li class="li-nav-scocov"><a href="#about">ABOUT US</a></li>
-                    <li class="li-nav-scocov"><a href="#contact">CONTACT</a></li>
+                <ul class="col-xs-12 col-sm-8 nav navbar-nav navbar-right navbar-right-fotter">
+                    <li class="li-nav-skokov"><a href="#home">HOME</a></li>
+                    <li class="li-nav-skokov"><a href="#portfolio">PORTFOLIO</a></li>
+                    <li class="li-nav-skokov"><a href="#blog">BLOG</a></li>
+                    <li class="li-nav-skokov"><a href="#about">ABOUT US</a></li>
+                    <li class="li-nav-skokov"><a href="#contact">CONTACT</a></li>
                 </ul>
+            </div>
         </div>
     </nav>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!--jquery-->
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!--masonry-->
 <script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
+<!--js/bootstrap-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function(){
-        // Инициализирует карусель
-        $(".start-slide").click(function() {
-            $("#myCarousel2").carousel('cycle');
-        });
-    });
+<!--fansybox-->
+<script type="text/javascript" src="lib/fancybox/jquery.fancybox.js"></script>
 
-    $('.list').masonry({
-        itemSelector: '.item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true
-    });
+<script src="lib/jmosaicflow/jquery.mosaicflow.min.js"></script>
+<script src="lib/lightslider/js/lightslider.js"></script>
 
-    //slader-client
-    $(function(){
-        $('a.left_button').click(function(){
-            $('#simple_slider > :first-child').appendTo('#simple_slider'); //находит первый дочерний элемент в блоке и устанавливает его в конец списка
-        });
-        $('a.right_button').click(function(){
-            $('#simple_slider > :last-child').prependTo('#simple_slider'); //находит последний дочерний элемент и устанавливает его в начало списка
-        });
-    });
+<script src="js/index.js"></script>
 
-</script>
 </body>
 </html>
