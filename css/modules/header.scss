@@ -6,21 +6,16 @@ html{
 }
 .navbar-skokov{
     margin-bottom: 0;
-    .nav-header-skokov {
-        .btn-collapsed-skokov {
-            //border: 1.5px solid #28a4c9;
-            //margin-top: 18px;
-
-            span{
-                border: 1px solid #28a4c9;
-            }
+    .btn-collapsed-skokov {
+        margin: 27px;
+        span{
+            border: 1px solid #28a4c9;
         }
     }
     .brand-skokov{
-        padding: 0;
+        padding: 5px;
         .img-logo{
             width: 80px;
-            height: 50%;
         }
     }
     .nav-skokov {
@@ -65,35 +60,28 @@ html{
                 margin-top: 40px;
             }
         }
+        .brand-skokov{
+            padding: 22px;
+        }
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     html{
         font-size: 16px;
     }
-    .navbar-skokov{
-        .navbar-header-skokov {
-            h1{
-                margin: 0;
-                .brand-skokov{
-                    margin: 0;
-                    .img-logo{
-                        width: 100%;
-                    }
-                }
-            }
-            .btn-collapsed-skokov {
-                span{
-                }
+    .navbar-skokov {
+        .brand-skokov{
+            padding: 22px;
+            .img-logo{
+                width: 116px;
             }
         }
         .nav-skokov {
+            padding: 35px 25px;
             .li-nav-skokov {
-                //margin: 40px;
-
                 a {
-                    padding: 27px 10px;
-
+                    padding: 24px 10px;
+                    margin-right: 40px;
                 }
             }
         }
@@ -104,28 +92,20 @@ html{
         font-size: 16px;
     }
     .navbar-skokov {
-        .nav-header-skokov {
-            .btn-collapsed-skokov {
-            }
-        }
-        .brand-skokov {
-            .img-logo {
-                width: 100%;
-                height: 100%;
-                //margin-top: 34px;
-
+        .brand-skokov{
+            padding: 22px;
+            .img-logo{
+                width: 116px;
             }
         }
         .nav-skokov {
+            padding: 35px 25px;
             .li-nav-skokov {
-                //font-size: 16px;
-
                 a {
-                    padding: 25px 9px;
-                    margin: 64px 0 40px 50px;
+                    padding: 24px 10px;
+                    margin-left: 40px;
                 }
             }
         }
     }
-
 }

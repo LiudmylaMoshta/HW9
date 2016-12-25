@@ -14,6 +14,7 @@ html {
 
 body {
     background: #f6f6f6;
+    //border: 15px solid white;
 }
 
 @import "modules/header";
@@ -262,7 +263,6 @@ body {
 
 .section-clients {
     text-align: center;
-
     .title-clients-skokov {
         color: #ffea00;
         font: 1.8rem/2.1rem "Century Gothic";
@@ -341,7 +341,6 @@ body {
     html {
         font-size: 16px;
     }
-
     .section-welcome {
         .welcome-carousel {
             .welcome-caption {
@@ -391,7 +390,6 @@ body {
             }
         }
     }
-
     .section-clients {
         .content-slide-skokov {
             padding: 0;
@@ -430,37 +428,24 @@ body {
                         width: 130px;
                         margin: 5px;
                     }
-
                 }
-
             }
-
         }
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     html {
         font-size: 14px;
     }
-    .navbar-skokov {
-        .brand-skokov {
-            .img-logo {
-                height: 100%;
-            }
-        }
-    }
-
     .section-welcome {
         width: 100%;
         .welcome-carousel {
             .item-welcome-skokov {
-                height: 60vh;
-                padding-top: 20%;
+                height: 40vh;
+                //padding-top: 20%;
             }
             .welcome-caption {
-
                 font-family: "Century Gothic";
                 left: 50px;
                 right: 50px;
@@ -480,7 +465,6 @@ body {
                 .btn-welcome {
                     margin-top: 20px;
                     font-size: 2rem;
-
                 }
             }
             .text-welcome {
@@ -516,7 +500,6 @@ body {
             }
         }
     }
-
     .section-clients {
         .content-slide-skokov {
             padding: 0;

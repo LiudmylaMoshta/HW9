@@ -19,13 +19,14 @@ html {
 
 .navbar-skokov {
   margin-bottom: 0; }
-  .navbar-skokov .nav-header-skokov .btn-collapsed-skokov span {
-    border: 1px solid #28a4c9; }
+  .navbar-skokov .btn-collapsed-skokov {
+    margin: 27px; }
+    .navbar-skokov .btn-collapsed-skokov span {
+      border: 1px solid #28a4c9; }
   .navbar-skokov .brand-skokov {
-    padding: 0; }
+    padding: 5px; }
     .navbar-skokov .brand-skokov .img-logo {
-      width: 80px;
-      height: 50%; }
+      width: 80px; }
   .navbar-skokov .nav-skokov {
     margin-bottom: 0; }
     .navbar-skokov .nav-skokov .active a {
@@ -50,29 +51,35 @@ html {
     font-size: 14px; }
 
   .navbar-skokov .nav-skokov .li-nav-skokov {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+  .navbar-skokov .brand-skokov {
+    padding: 22px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   html {
     font-size: 16px; }
 
-  .navbar-skokov .navbar-header-skokov h1 {
-    margin: 0; }
-    .navbar-skokov .navbar-header-skokov h1 .brand-skokov {
-      margin: 0; }
-      .navbar-skokov .navbar-header-skokov h1 .brand-skokov .img-logo {
-        width: 100%; }
-  .navbar-skokov .nav-skokov .li-nav-skokov a {
-    padding: 27px 10px; } }
+  .navbar-skokov .brand-skokov {
+    padding: 22px; }
+    .navbar-skokov .brand-skokov .img-logo {
+      width: 116px; }
+  .navbar-skokov .nav-skokov {
+    padding: 35px 25px; }
+    .navbar-skokov .nav-skokov .li-nav-skokov a {
+      padding: 24px 10px;
+      margin-right: 40px; } }
 @media (min-width: 1200px) {
   html {
     font-size: 16px; }
 
-  .navbar-skokov .brand-skokov .img-logo {
-    width: 100%;
-    height: 100%; }
-  .navbar-skokov .nav-skokov .li-nav-skokov a {
-    padding: 25px 9px;
-    margin: 64px 0 40px 50px; } }
+  .navbar-skokov .brand-skokov {
+    padding: 22px; }
+    .navbar-skokov .brand-skokov .img-logo {
+      width: 116px; }
+  .navbar-skokov .nav-skokov {
+    padding: 35px 25px; }
+    .navbar-skokov .nav-skokov .li-nav-skokov a {
+      padding: 24px 10px;
+      margin-left: 40px; } }
 html {
   font-size: 12px; }
 
@@ -494,14 +501,10 @@ html {
   html {
     font-size: 14px; }
 
-  .navbar-skokov .brand-skokov .img-logo {
-    height: 100%; }
-
   .section-welcome {
     width: 100%; }
     .section-welcome .welcome-carousel .item-welcome-skokov {
-      height: 60vh;
-      padding-top: 20%; }
+      height: 40vh; }
     .section-welcome .welcome-carousel .welcome-caption {
       font-family: "Century Gothic";
       left: 50px;
