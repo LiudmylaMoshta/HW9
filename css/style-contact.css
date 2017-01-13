@@ -1,4 +1,3 @@
-@import url(../lib/fancybox/jquery.fancybox.css);
 html {
   font-size: 12px; }
 
@@ -189,123 +188,140 @@ html {
   #footer .col-skokov-tweets {
     padding-left: 45px; } }
 body {
-  background: #f6f6f6;
-  color: #424147;
-  font-family: "Century Gothic", sans-serif;
-  line-height: 1.313rem;
-  font-weight: 400; }
-
-.section-portfolio-skokov {
-  background: url("../images/slider-bg-2.png") no-repeat;
-  width: 100%; }
-  .section-portfolio-skokov .title-portfolio {
-    display: inline-block;
-    background-color: #424146;
-    color: #ffea00;
-    font-size: 2.188rem;
-    text-transform: uppercase; }
-
-.section-content {
-  text-align: center; }
-  .section-content .title-section-content {
-    padding-top: 15px;
-    font-size: 2.188rem;
-    text-transform: uppercase; }
-  .section-content .text-section-content {
-    font-size: 1.5rem;
-    padding-top: 15px; }
-  .section-content .menu-skokov {
-    font-size: 1.5rem;
-    text-align: left;
-    list-style-type: none;
-    padding: 0;
-    padding-top: 20px; }
-    .section-content .menu-skokov li {
-      display: inline;
-      margin-left: 5px; }
-      .section-content .menu-skokov li.active a {
-        background: #ffeb00; }
-      .section-content .menu-skokov li a {
-        text-decoration: none;
-        color: #424147; }
-        .section-content .menu-skokov li a:hover {
-          background: #ffeb00; }
-  .section-content .menu-img {
-    padding: 0;
+  background: #f6f6f6; }
+  body ul {
+    padding-left: 0; }
+  body li {
     list-style-type: none; }
-    .section-content .menu-img .col-img-portfolio {
-      display: inline-block;
-      padding: 10px 10px; }
-      .section-content .menu-img .col-img-portfolio .overlay-hover {
-        display: none; }
-      .section-content .menu-img .col-img-portfolio .img-portfolio {
-        width: 100%;
-        height: auto; }
-      .section-content .menu-img .col-img-portfolio:hover .overlay-hover {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        top: 30px;
-        left: 10px;
-        right: 10px;
-        bottom: 30px;
-        opacity: 0.5;
-        background-color: #ffea00; }
-        .section-content .menu-img .col-img-portfolio:hover .overlay-hover a {
-          margin: 0 auto;
-          color: white;
-          opacity: 0.8;
-          background-color: #424146;
-          width: 150px;
-          padding: 50px;
-          text-decoration: none; }
-          .section-content .menu-img .col-img-portfolio:hover .overlay-hover a i {
-            opacity: 1;
-            font-size: 47px; }
+
+.section-contact-skokov {
+  background: url("../images/slider-bg-2.png") no-repeat 50% 50%;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 20px; }
+  .section-contact-skokov .title-contact-skokov {
+    display: inline-block;
+    min-width: 290px;
+    color: #ffea00;
+    background-color: #424146;
+    font-size: 2.188rem;
+    text-transform: uppercase; }
+
+.maps iframe {
+  width: 100%;
+  height: 60vh;
+  padding: 10px; }
+
+.title-maps {
+  color: #ffea00;
+  font: 400 1.125rem/1.313rem "Century Gothic";
+  text-transform: uppercase;
+  background-color: #424147;
+  display: inline-block;
+  padding: 3px 10px;
+  margin-top: 30px; }
+
+.contact-maps .span-contacts {
+  display: block; }
+.contact-maps .icon-contact {
+  background: #000000;
+  color: #ffffff;
+  width: 24px;
+  padding: 5px;
+  text-align: center; }
+.contact-maps address {
+  margin-top: 15px; }
+
+.messages .form-maps {
+  border-radius: 0;
+  border: none;
+  color: #424147;
+  font: 400 0.938rem/1.875rem "Century Gothic"; }
+.messages .btn-maps {
+  color: white;
+  font: 400 0.938rem/2.375rem "Century Gothic";
+  background-color: black; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   html {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .section-about-skokov {
+    padding: 10px; }
+    .section-about-skokov .title-about-skokov {
+      padding: 10px; }
+
+  .title-maps {
+    padding: 7px 15px; }
+
+  .contact-maps {
+    margin-bottom: 30px;
+    padding: 0 15px 0 35px; }
+
+  .messages {
+    margin-bottom: 30px; }
+    .messages .btn-maps {
+      margin-top: 10px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   html {
-    font-size: 16px; }
-
-  .section-portfolio-skokov .title-portfolio {
-    padding: 22px 105px 22px 22px;
-    margin: 40px 0;
-    margin-left: 134px; }
-
-  .section-content .title-section-content {
-    padding-top: 60px; }
-  .section-content .menu-skokov {
-    padding-left: 134px;
-    padding-top: 70px; }
-    .section-content .menu-skokov li {
-      margin-left: 45px; }
-  .section-content .menu-img {
-    margin-bottom: 50px; }
-    .section-content .menu-img .col-img-portfolio {
-      padding: 30px 10px; } }
-@media (min-width: 1200px) {
+    font-size: 15px; } }
+@media (min-width: 1200px) and (max-width: 1632px) {
   html {
     font-size: 16px; }
 
-  .section-portfolio-skokov .title-portfolio {
-    padding: 22px 105px 22px 22px;
-    margin: 40px 0;
+  .section-about-skokov {
+    padding: 10px; }
+    .section-about-skokov .title-about-skokov {
+      padding: 10px; }
+
+  .maps iframe {
+    height: 65vh;
+    margin: 10px; }
+
+  .title-maps {
+    padding: 7px 15px; }
+
+  .contact-maps {
+    margin-bottom: 30px;
+    padding: 0 15px 0 65px; }
+
+  .messages {
+    margin-bottom: 30px; } }
+@media (min-width: 1663px) {
+  html {
+    font-size: 16px; }
+
+  .section-about-skokov {
+    margin-bottom: 0; }
+    .section-about-skokov .title-about-skokov {
+      padding: 22px;
+      margin: 40px 0;
+      margin-left: 134px; }
+
+  .maps iframe {
+    width: 1633px;
+    margin: 75px 15px; }
+
+  .title-maps {
+    margin-bottom: 25px;
+    padding: 8px 13px; }
+
+  .contact-maps {
+    width: 300px;
     margin-left: 134px; }
+    .contact-maps address .bg-black {
+      background: #000000; }
+    .contact-maps address .bg-black {
+      background: #424147;
+      color: #ffea00; }
 
-  .section-content .title-section-content {
-    padding-top: 60px; }
-  .section-content .menu-skokov {
-    padding-left: 134px;
-    padding-top: 70px; }
-    .section-content .menu-skokov li {
-      margin-left: 45px; }
-  .section-content .menu-img {
-    margin-bottom: 50px; }
-    .section-content .menu-img .col-img-portfolio {
-      padding: 30px 10px; } }
+  .messages {
+    width: 940px;
+    margin-left: 134px;
+    margin-bottom: 30px; }
+    .messages .btn-maps {
+      text-align: right;
+      padding: 12px;
+      margin-top: 20px; } }
 
-/*# sourceMappingURL=style-portfolio.css.map */
+/*# sourceMappingURL=style-contact.css.map */

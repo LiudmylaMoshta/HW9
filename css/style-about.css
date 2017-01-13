@@ -2,9 +2,6 @@
 html {
   font-size: 12px; }
 
-html {
-  font-size: 12px; }
-
 #header {
   background: #f6f6f6; }
 
@@ -193,122 +190,200 @@ html {
     padding-left: 45px; } }
 body {
   background: #f6f6f6;
-  color: #424147;
-  font-family: "Century Gothic";
-  line-height: 1.313rem;
-  font-weight: 400; }
-
-.section-portfolio-skokov {
-  background: url("../images/slider-bg-2.png") no-repeat;
-  width: 100%; }
-  .section-portfolio-skokov .title-portfolio {
-    display: inline-block;
-    background-color: #424146;
-    color: #ffea00;
-    font-size: 2.188rem;
-    text-transform: uppercase; }
-
-.section-content {
-  text-align: center; }
-  .section-content .title-section-content {
-    padding-top: 15px;
-    font-size: 2.188rem;
-    text-transform: uppercase; }
-  .section-content .text-section-content {
-    font-size: 1.5rem;
-    padding-top: 15px; }
-  .section-content .menu-skokov {
-    font-size: 1.5rem;
-    text-align: left;
-    list-style-type: none;
-    padding: 0;
-    padding-top: 20px; }
-    .section-content .menu-skokov li {
-      display: inline;
-      margin-left: 5px; }
-      .section-content .menu-skokov li.active a {
-        background: #ffeb00; }
-      .section-content .menu-skokov li a {
-        text-decoration: none;
-        color: #424147; }
-        .section-content .menu-skokov li a:hover {
-          background: #ffeb00; }
-  .section-content .menu-img {
-    padding: 0;
+  color: #424146; }
+  body ul {
+    padding-left: 0; }
+  body li {
     list-style-type: none; }
-    .section-content .menu-img .col-img-portfolio {
+
+.title-about {
+  text-align: center;
+  display: inline-block;
+  background-color: #424147;
+  color: #ffea00;
+  font: 400 1.125rem/1.313rem "Century Gothic";
+  text-transform: uppercase;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  padding: 9px 30px; }
+
+.section-about-skokov {
+  background: url("../images/slider-bg-2.png") no-repeat 50% 50%;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 20px; }
+  .section-about-skokov .title-about-skokov {
+    display: inline-block;
+    min-width: 290px;
+    color: #ffea00;
+    background-color: #424146;
+    font-size: 2.188rem;
+    text-transform: uppercase; }
+
+.section-about-welcome .media-about .title-welcome {
+  font: 400 1.875rem/2rem "Century Gothic";
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 35px; }
+.section-about-welcome .media-about .text-welcome-prew {
+  font: 400 0.938rem/1.313rem "Century Gothic";
+  margin-top: 15px;
+  margin-bottom: 10px; }
+.section-about-welcome .media-about .text-welcome {
+  font: 400 0.938rem/1.5rem "Century Gothic"; }
+  .section-about-welcome .media-about .text-welcome p {
+    margin-top: 0;
+    margin-bottom: 0; }
+
+.section-progress-bar {
+  text-align: center; }
+  .section-progress-bar .text-progress-bar {
+    font: 400 1rem/1.313rem "Century Gothic"; }
+
+.progress-about {
+  display: block;
+  background-color: #424147;
+  border-radius: 0;
+  margin: 5px; }
+  .progress-about .progress-bar-about {
+    background-color: #ffea00;
+    font: 400 1.063rem/1.313rem "Century Gothic";
+    text-transform: uppercase;
+    text-align: left;
+    color: #424146; }
+  .progress-about .progress-title {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #424147;
+    color: #ffea00;
+    font: 400 1.063rem/1.313rem "Century Gothic";
+    text-transform: uppercase;
+    padding-bottom: 8px; }
+
+.section-team {
+  text-align: center; }
+  .section-team .text-team {
+    font: 400 1rem/1.313rem "Century Gothic"; }
+  .section-team .list-team .team-item {
+    display: block; }
+    .section-team .list-team .team-item .img-team {
+      margin: 0 auto;
+      background-color: #ffea00; }
+    .section-team .list-team .team-item .title-name {
+      background-color: #424147;
+      color: #ffea00;
+      font: 400 1rem/1.313rem "Century Gothic";
+      text-transform: uppercase;
       display: inline-block;
-      padding: 10px 10px; }
-      .section-content .menu-img .col-img-portfolio .overlay-hover {
-        display: none; }
-      .section-content .menu-img .col-img-portfolio .img-portfolio {
-        width: 100%;
-        height: auto; }
-      .section-content .menu-img .col-img-portfolio:hover .overlay-hover {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        top: 30px;
-        left: 10px;
-        right: 10px;
-        bottom: 30px;
-        opacity: 0.5;
-        background-color: #ffea00; }
-        .section-content .menu-img .col-img-portfolio:hover .overlay-hover a {
-          margin: 0 auto;
-          color: white;
-          opacity: 0.8;
-          background-color: #424146;
-          width: 150px;
-          padding: 50px;
-          text-decoration: none; }
-          .section-content .menu-img .col-img-portfolio:hover .overlay-hover a i {
-            opacity: 1;
-            font-size: 47px; }
+      width: 150px;
+      padding: 2px;
+      margin-bottom: 60px; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   html {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .section-about-welcome {
+    margin-top: 40px; }
+    .section-about-welcome .media-body-about .title-welcome {
+      margin-top: 0;
+      font: 400 1.875rem/1.313rem "Century Gothic"; }
+
+  .section-team {
+    text-align: center; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   html {
     font-size: 16px; }
 
-  .section-portfolio-skokov .title-portfolio {
-    padding: 22px 105px 22px 22px;
-    margin: 40px 0;
-    margin-left: 134px; }
+  .section-about-welcome {
+    margin-top: 40px; }
+    .section-about-welcome .media-body-about .title-welcome {
+      margin-top: 0;
+      font: 400 1.875rem/1.313rem "Century Gothic"; }
 
-  .section-content .title-section-content {
-    padding-top: 60px; }
-  .section-content .menu-skokov {
-    padding-left: 134px;
-    padding-top: 70px; }
-    .section-content .menu-skokov li {
-      margin-left: 45px; }
-  .section-content .menu-img {
-    margin-bottom: 50px; }
-    .section-content .menu-img .col-img-portfolio {
-      padding: 30px 10px; } }
-@media (min-width: 1200px) {
+  .progress-about {
+    display: block;
+    background-color: #424147;
+    border-radius: 0;
+    margin: 5px; }
+    .progress-about .progress-bar-about {
+      background-color: #ffea00;
+      font: 400 1.063rem/1.313rem "Century Gothic";
+      text-transform: uppercase;
+      text-align: left;
+      color: #424146; }
+    .progress-about .progress-title {
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: #424147;
+      color: #ffea00;
+      font: 400 1.063rem/1.313rem "Century Gothic";
+      text-transform: uppercase; } }
+@media (min-width: 1200px) and (max-width: 1632px) {
   html {
     font-size: 16px; }
 
-  .section-portfolio-skokov .title-portfolio {
+  .section-about-skokov .title-about-skokov {
     padding: 22px 105px 22px 22px;
     margin: 40px 0;
     margin-left: 134px; }
 
-  .section-content .title-section-content {
-    padding-top: 60px; }
-  .section-content .menu-skokov {
-    padding-left: 134px;
-    padding-top: 70px; }
-    .section-content .menu-skokov li {
-      margin-left: 45px; }
-  .section-content .menu-img {
-    margin-bottom: 50px; }
-    .section-content .menu-img .col-img-portfolio {
-      padding: 30px 10px; } }
+  .title-about {
+    margin-top: 80px; }
 
-/*# sourceMappingURL=style-page2.css.map */
+  .section-about-welcome {
+    margin-top: 40px; }
+    .section-about-welcome .media-body-about .title-welcome {
+      margin-top: 0;
+      font: 400 1.875rem/1.313rem "Century Gothic"; }
+
+  .progress-about {
+    display: block;
+    border-radius: 0;
+    margin: 5px; }
+    .progress-about .progress-bar-about {
+      text-align: left; }
+    .progress-about .progress-title {
+      padding-left: 10px;
+      padding-right: 10px; } }
+@media (min-width: 1663px) {
+  html {
+    font-size: 16px; }
+
+  .title-about {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 8px 31px; }
+
+  .section-about-skokov .title-about-skokov {
+    padding: 22px 105px 22px 22px;
+    margin: 40px 0;
+    margin-left: 134px; }
+
+  .section-about-welcome {
+    width: 1390px;
+    padding: 0;
+    margin-top: 60px; }
+    .section-about-welcome .media-body-about {
+      padding-left: 30px; }
+      .section-about-welcome .media-body-about .title-welcome {
+        font: 400 1.875rem/1.313rem "Century Gothic"; }
+      .section-about-welcome .media-body-about .text-welcome-prew {
+        margin-top: 30px;
+        margin-bottom: 27px; }
+
+  .section-progress-bar {
+    width: 1007px; }
+    .section-progress-bar .text-progress-bar {
+      margin-bottom: 30px; }
+
+  .section-team {
+    width: 1245px;
+    padding: 0;
+    margin-bottom: 80px; }
+    .section-team .text-team {
+      margin-bottom: 54px; }
+    .section-team .list-team li .title-name {
+      width: 200px; } }
+
+/*# sourceMappingURL=style-about.css.map */

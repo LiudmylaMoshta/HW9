@@ -8,7 +8,7 @@ html {
 body{
     background: #f6f6f6;
     color: #424147;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", sans-serif;
     line-height: 1.313rem;
     font-weight: 400;
 }
@@ -23,6 +23,7 @@ body{
         text-transform: uppercase;
     }
 }
+
 .section-content{
     text-align: center;
     .title-section-content{

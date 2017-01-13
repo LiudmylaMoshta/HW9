@@ -175,6 +175,11 @@ body {
         }
     }
 }
+.post-footer {
+    border-bottom: 1px solid #cacaca;
+    padding-bottom: 50px;
+}
+
 .title-social{
     display: inline-block;
     color: #ffea00;
@@ -188,9 +193,8 @@ body {
 
 }
 .social-like{
-    text-align: center;
-    border-bottom: 1px solid #cacaca;
-    padding-bottom: 57px;
+    //text-align: center;
+    //padding-bottom: 57px;
     dt,dd{
         display: inline-block;
     }
@@ -213,13 +217,43 @@ body {
     }
 
 }
+.post-header{
+    &:hover{
+        .text-content{
+            &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                margin-top: -30px;
+                right: 20%;
+                border: 16px solid transparent;
+                border-bottom-color: #ffeb00;
+                margin-left: -8px;
+            }
+        }
+    }
+}
+.hover-trial {
+    &:hover {
+        .title-related {
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                margin-top: -43px;
+                right: 20%;
+                border: 16px solid transparent;
+                border-bottom-color: #ffeb00;
+                margin-left: -8px;
+            }
+        }
+    }
+}
 .section-related{
     border-bottom: 1px solid #cacaca;
     padding-bottom: 40px;
     .list-related{
         padding-left: 0;
-        li{
-
             .title-related{
                 color: black;
                 font: 400 0.813rem/1.063rem "Century Gothic";
@@ -228,9 +262,12 @@ body {
                 margin-top: 0;
                 padding: 12px;
             }
+            .img-related{
+                width: 100%;
+            }
         }
     }
-}
+
 .comments{
     .title-comment{
         color: black;

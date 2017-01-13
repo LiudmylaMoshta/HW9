@@ -2,9 +2,6 @@
 html {
   font-size: 10px; }
 
-html {
-  font-size: 12px; }
-
 #header {
   background: #f6f6f6; }
 
@@ -326,6 +323,10 @@ body {
     .section-content .text-content .data-comments .like {
       color: #5e5e5e; }
 
+.post-footer {
+  border-bottom: 1px solid #cacaca;
+  padding-bottom: 50px; }
+
 .title-social {
   display: inline-block;
   color: #ffea00;
@@ -337,39 +338,57 @@ body {
   margin-bottom: 25px;
   text-align: center; }
 
-.social-like {
+.social-like dt, .social-like dd {
+  display: inline-block; }
+.social-like dt {
+  background: #000000;
+  width: 30px;
   text-align: center;
-  border-bottom: 1px solid #cacaca;
-  padding-bottom: 57px; }
-  .social-like dt, .social-like dd {
-    display: inline-block; }
-  .social-like dt {
-    background: #000000;
-    width: 30px;
-    text-align: center;
-    padding: 5px 0; }
-    .social-like dt a {
-      color: #ffffff; }
-  .social-like dd {
-    width: 30px;
-    background-color: #ffea00;
-    color: #000000;
-    text-align: center;
-    margin-left: -4px;
-    padding: 5px 0; }
+  padding: 5px 0; }
+  .social-like dt a {
+    color: #ffffff; }
+.social-like dd {
+  width: 30px;
+  background-color: #ffea00;
+  color: #000000;
+  text-align: center;
+  margin-left: -4px;
+  padding: 5px 0; }
+
+.post-header:hover .text-content:before {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: -30px;
+  right: 20%;
+  border: 16px solid transparent;
+  border-bottom-color: #ffeb00;
+  margin-left: -8px; }
+
+.hover-trial:hover .title-related:before {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: -43px;
+  right: 20%;
+  border: 16px solid transparent;
+  border-bottom-color: #ffeb00;
+  margin-left: -8px; }
 
 .section-related {
   border-bottom: 1px solid #cacaca;
   padding-bottom: 40px; }
   .section-related .list-related {
     padding-left: 0; }
-    .section-related .list-related li .title-related {
+    .section-related .list-related .title-related {
       color: black;
       font: 400 0.813rem/1.063rem "Century Gothic";
       text-transform: uppercase;
       background-color: #ffea00;
       margin-top: 0;
       padding: 12px; }
+    .section-related .list-related .img-related {
+      width: 100%; }
 
 .comments .title-comment {
   color: black;

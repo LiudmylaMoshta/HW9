@@ -1,8 +1,5 @@
 @charset "UTF-8";
 @import url(../lib/fancybox/jquery.fancybox.css);
-html {
-  font-size: 12px; }
-
 #header {
   background: #f6f6f6; }
 
