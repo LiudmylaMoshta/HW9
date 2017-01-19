@@ -119,6 +119,8 @@ html {
 
 .col-skokov-tweets {
   padding: 0; }
+  .col-skokov-tweets a {
+    color: #FFFFFF; }
   .col-skokov-tweets .list-tweets {
     text-align: left; }
     .col-skokov-tweets .list-tweets .row .col-text-tweets {
@@ -142,7 +144,9 @@ html {
   .col-skokov-contact .address-skokov {
     text-align: left; }
     .col-skokov-contact .address-skokov .dd-email {
-      margin-left: 20px; }
+      color: #ffea00; }
+    .col-skokov-contact .address-skokov .dd-tel {
+      color: #FFFFFF; }
     .col-skokov-contact .address-skokov dt, .col-skokov-contact .address-skokov dd {
       text-align: center;
       display: inline-block;
@@ -164,7 +168,7 @@ html {
       background: #000000; }
       .col-skokov-contact .form-skokov .input-group-btn-skokov .btn-footer-skokov i {
         width: 2.8rem;
-        padding: 0.7rem 0; }
+        padding: 0.5rem 0; }
 
 @media (min-width: 568px) and (max-width: 767px) {
   html {
