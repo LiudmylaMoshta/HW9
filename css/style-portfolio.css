@@ -153,6 +153,8 @@ html {
       text-align: center;
       display: inline-block;
       margin-bottom: 5px; }
+      .col-skokov-contact .address-skokov dt a, .col-skokov-contact .address-skokov dd a {
+        color: #ffffff; }
   .col-skokov-contact .form-skokov .input-footer-skokov {
     border: none;
     background: transparent;

@@ -130,20 +130,18 @@
                 <ul class="row list-related">
                     <li class="hover-trial col-xs-12 col-sm-4">
                         <img src="images/related-1.png" alt="boy" class="img-related img-responsive">
-                        <h4 class="title-related">18 Minimalistic Home Offices to Inspire
-                            You <!--это так же должно быть и ссылкой, что бы можно было перейти на эти статьи-->
+                        <h4 class="title-related"><a href="#">18 Minimalistic Home Offices to Inspire You</a> <!--это так же должно быть и ссылкой, что бы можно было перейти на эти статьи-->
                         </h4>
                     </li>
                     <li class="hover-trial col-xs-12 col-sm-4">
                         <img src="images/related2.png" alt="dog" class="img-related img-responsive">
-                        <h4 class="title-related"> 20 Resources for Beginner Designers
-                            &#38; Developers
+                        <h4 class="title-related"> <a href="#">20 Resources for Beginner Designers &#38; Developers</a>
                         </h4>
                     </li>
                     <li class="hover-trial col-xs-12 col-sm-4">
                         <img src="images/related3.png" alt="tree" class="img-related img-responsive">
-                        <h4 class="title-related">Multipurpose Agency WordPress
-                            Theme
+                        <h4 class="title-related">
+                            <a href="#">Multipurpose Agency WordPress Theme</a>
                         </h4>
                     </li>
                 </ul>
@@ -155,7 +153,7 @@
                         <img src="images/comment-img1.png" class="avatars col-xs-1"><!--картинки не отображаются на мобильных девайсах, а на таблетке не выровнены-->
                         <div class="comments col-xs-11">
                             <span class="title-comment">
-                                Skokov   /   2 hours ago   /   reply<!--этот элемент REPLY должне быть ссылкой, который предоставляет возможность ответить на комментарий-->
+                                Skokov   /   2 hours ago   /   <a href="#">reply</a><!--этот элемент REPLY должне быть ссылкой, который предоставляет возможность ответить на комментарий-->
                             </span>
                             <p class="text-comment">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
                             dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
@@ -168,7 +166,7 @@
                     <li class="row">
                         <img src="images/comment-img2.png" class="avatars col-xs-1">
                         <div class="comments col-xs-11">
-                            <span class="title-comment">wernay   /   3 hours ago   /   reply </span>
+                            <span class="title-comment">wernay   /   3 hours ago   / <a href="#">reply</a> </span>
                             <p class="text-comment">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
                                 dolore magna aliquam erat volutpat.
@@ -178,7 +176,7 @@
                     <li class="row">
                         <img src="images/comment-img3.png" class="avatars col-xs-1">
                         <div class="comments col-xs-11">
-                            <span class="title-comment">wernay   /   3 hours ago   /   reply </span>
+                            <span class="title-comment">wernay   /   3 hours ago   /  <a href="#"> reply </a></span>
                             <p class="text-comment">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
                                 dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
@@ -199,7 +197,7 @@
                                 <img src="images/comment-img2.png" class="avatars col-xs-offset-1 col-xs-1">
                                 <div class="comments col-xs-10">
                                     <span class="title-comment">
-                                        wernay   /   3 hours ago   /   reply
+                                        wernay   /   3 hours ago   /   <a href="#">reply</a>
                                     </span>
                                     <p class="text-comment">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.
@@ -209,7 +207,7 @@
                             <li>
                                 <img src="images/comment-img3.png" class="avatars col-xs-offset-2 col-xs-1">
                                 <div class="comments col-xs-9">
-                                    <span class="title-comment">mr. dev   /   5 hours ago   /   reply</span>
+                                    <span class="title-comment">mr. dev   /   5 hours ago   /  <a href="#"> reply </a></span>
                                     <p class="text-comment">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                         tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
@@ -223,7 +221,7 @@
                         <img src="images/comment-img4.png" class="avatars col-xs-1">
                         <div class="comments col-xs-11">
                             <span class="title-comment">
-                                denpro   /   2 hours ago   /   reply
+                                denpro   /   2 hours ago   / <a href="#"> reply </a>
                             </span>
                             <p class="text-comment">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
@@ -238,15 +236,18 @@
             <section class="section-leave-comments">
                 <h3 class="title-social">Leave a comment</h3>
                 <form class="form-inline form-inline-blog"><!--это можно оформить списком-->
-                    <div class="form-group col-xs-6 form-group-comments">
-                        <label for="exampleInputName2"></label>
-                        <input type="text" class="form-control" id="exampleInputName2" placeholder="name ...">
-                    </div>
-                    <div class="form-group col-xs-6 form-group-comments">
-                        <label for="exampleInputEmail2"></label>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="email ...">
-                    </div>
-                    <textarea class="textarea-blog form-control col-xs-12" placeholder="comment ..." rows="3"></textarea>
+                    <ul class="post-form row">
+                        <li class="form-group col-xs-6 form-group-comments">
+                            <input type="text" class="form-control" id="exampleInputName2" placeholder="name ...">
+                        </li>
+                        <li class="form-group col-xs-6 form-group-comments">
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="email ...">
+
+                        </li>
+                        <li class="col-xs-12">
+                            <textarea class="textarea-blog form-control " placeholder="comment ..." rows="3"></textarea>
+                        </li>
+                    </ul>
                     <button type="submit" class="btn btn-default btn-comments">Add a comment</button>
                 </form>
             </section>
@@ -623,8 +624,8 @@
                             Phone:
                         </dt>
                         <dd>
-                            +38 045 845-45-78
-                            +38 045 845-45-79
+                            <a href="tel:380458454578">+38 045 845-45-78 </a><!--ссылка на тел-->
+                            <a href="tel:380458454579">+38 045 845-45-79</a>
                         </dd>
                     </dl>
                     <dl>
@@ -633,7 +634,7 @@
                             E-mail:
                         </dt>
                         <dd>
-                            freeforwebdesign@gmail.com
+                            <a href="mailto:freeforwebdesign@gmail.com">freeforwebdesign@gmail.com</a>
                         </dd>
                     </dl>
                 </address>

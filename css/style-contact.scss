@@ -61,6 +61,16 @@ body{
     }
     address{
         margin-top: 15px;
+         a{
+             color: #000000;
+         }
+        .bg-black{
+            background: #000000;
+        }
+        .bg-black{
+            background: #424147;
+            color: #ffea00;
+        }
     }
 }
 .messages{
@@ -151,7 +161,7 @@ body{
     }
     .contact-maps{
         margin-bottom: 30px;
-        padding: 0 15px 0 65px;
+        //padding: 0 15px 0 65px;
         .span-contacts{
         }
         //address{
@@ -181,8 +191,7 @@ body{
     }
     .maps{
         iframe {
-            width: 1633px;
-            margin: 75px 15px;
+            margin-top: 75px;
         }
     }
     .title-maps{
@@ -205,8 +214,6 @@ body{
         }
     }
     .messages{
-        width: 940px;
-        margin-left: 134px;
         margin-bottom: 30px;
         .form-maps{
         }

@@ -22,7 +22,7 @@ body {
     margin-bottom: 20px;
     .title-project {
         display: inline-block;
-        min-width: 290px;
+        padding:10px 85px 10px 10px;
         background-color: #424146;
         color: #ffea00;
         font-size: 2.188rem;
@@ -127,7 +127,7 @@ body {
             display: inline;
             line-height: 30px;
             background-color: #ffea00;
-            margin: 1.5px;
+            margin: 2px;
             text-align: center;
 
             a {
@@ -255,13 +255,13 @@ blockquote {
             }
             &:first-child {
                 a {
-                    padding-right: 20%;
+                    padding-right: 15%;
                 }
 
             }
             &:last-child {
                 a {
-                    padding-left: 20%;
+                    padding-left: 15%;
                 }
 
             }
@@ -277,6 +277,9 @@ blockquote {
             .title-content {
                 margin-top: 0;
                 padding-top: 25px;
+            }
+            .article-footer {
+                font: 400 0.8rem/1.0rem "Century Gothic";
             }
         }
     }
@@ -311,7 +314,6 @@ blockquote {
             padding-left: 15px;
             .li-aside-tags {
                 margin-left: 1.5px;
-                padding: 6px 9px;
             }
         }
     }
@@ -415,7 +417,6 @@ blockquote {
         .ul-aside-tags {
             .li-aside-tags {
                 margin-left: 1.5px;
-                padding: 6px 5px;
                 width: auto;
             }
         }

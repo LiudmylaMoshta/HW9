@@ -153,6 +153,8 @@ html {
       text-align: center;
       display: inline-block;
       margin-bottom: 5px; }
+      .col-skokov-contact .address-skokov dt a, .col-skokov-contact .address-skokov dd a {
+        color: #ffffff; }
   .col-skokov-contact .form-skokov .input-footer-skokov {
     border: none;
     background: transparent;
@@ -206,7 +208,7 @@ body {
   margin-bottom: 20px; }
   .section-project-skokov .title-project {
     display: inline-block;
-    min-width: 290px;
+    padding: 10px 85px 10px 10px;
     background-color: #424146;
     color: #ffea00;
     font-size: 2.188rem;
@@ -288,7 +290,7 @@ body {
     display: inline;
     line-height: 30px;
     background-color: #ffea00;
-    margin: 1.5px;
+    margin: 2px;
     text-align: center; }
     .aside-project .ul-aside-tags .li-aside-tags a {
       padding: 6px 9px;
@@ -376,9 +378,9 @@ blockquote {
       color: #414146;
       background: transparent; }
     .page-navigation li:first-child a {
-      padding-right: 20%; }
+      padding-right: 15%; }
     .page-navigation li:last-child a {
-      padding-left: 20%; }
+      padding-left: 15%; }
 
   .content {
     padding: 0 15px 15px; }
@@ -388,6 +390,8 @@ blockquote {
     .content .article-content .title-content {
       margin-top: 0;
       padding-top: 25px; }
+    .content .article-content .article-footer {
+      font: 400 0.8rem/1.0rem "Century Gothic"; }
 
   .aside-project .aside-categories, .aside-project .aside-archive, .aside-project .aside-post, .aside-project .aside-tags {
     padding: 15px 15px 15px; }
@@ -406,8 +410,7 @@ blockquote {
   .aside-project .ul-aside-tags {
     padding-left: 15px; }
     .aside-project .ul-aside-tags .li-aside-tags {
-      margin-left: 1.5px;
-      padding: 6px 9px; } }
+      margin-left: 1.5px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   html {
     font-size: 14px; }
@@ -464,7 +467,6 @@ blockquote {
     padding-top: 10px; }
   .aside-project .ul-aside-tags .li-aside-tags {
     margin-left: 1.5px;
-    padding: 6px 5px;
     width: auto; } }
 @media (min-width: 1663px) {
   html {

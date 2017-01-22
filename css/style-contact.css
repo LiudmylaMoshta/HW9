@@ -152,6 +152,8 @@ html {
       text-align: center;
       display: inline-block;
       margin-bottom: 5px; }
+      .col-skokov-contact .address-skokov dt a, .col-skokov-contact .address-skokov dd a {
+        color: #ffffff; }
   .col-skokov-contact .form-skokov .input-footer-skokov {
     border: none;
     background: transparent;
@@ -235,6 +237,13 @@ body {
   text-align: center; }
 .contact-maps address {
   margin-top: 15px; }
+  .contact-maps address a {
+    color: #000000; }
+  .contact-maps address .bg-black {
+    background: #000000; }
+  .contact-maps address .bg-black {
+    background: #424147;
+    color: #ffea00; }
 
 .messages .form-maps {
   border-radius: 0;
@@ -286,8 +295,7 @@ body {
     padding: 7px 15px; }
 
   .contact-maps {
-    margin-bottom: 30px;
-    padding: 0 15px 0 65px; }
+    margin-bottom: 30px; }
 
   .messages {
     margin-bottom: 30px; } }
@@ -303,8 +311,7 @@ body {
       margin-left: 134px; }
 
   .maps iframe {
-    width: 1633px;
-    margin: 75px 15px; }
+    margin-top: 75px; }
 
   .title-maps {
     margin-bottom: 25px;
@@ -320,8 +327,6 @@ body {
       color: #ffea00; }
 
   .messages {
-    width: 940px;
-    margin-left: 134px;
     margin-bottom: 30px; }
     .messages .btn-maps {
       text-align: right;

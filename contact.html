@@ -62,39 +62,38 @@
 
 <section class="container">
     <div class="row">
-        <section class="col-xs-12 col-sm-7 messages">
+        <section class="col-xs-12 col-sm-7 col-lg-7 messages">
             <h3 class="title-maps">
                 send us a message
             </h3>
+                <form ><!--это можно оформить как список-->
+                    <ul class="row">
+                        <li class="form-group col-xs-4 col-sm-4 col-lg-4">
+                            <label for="exampleInputName2"></label>
+                            <input type="text" class="form-control form-maps" id="exampleInputName2" placeholder="name ...">
+                        </li>
+                        <li class="form-group  col-xs-4 col-sm-4 col-lg-4">
+                            <label for="exampleInputEmail2"></label>
+                            <input type="email" class="form-control form-maps" id="exampleInputEmail2" placeholder="email ...">
+                        </li>
+                        <li class="form-group  col-xs-4 col-sm-4 col-lg-4">
+                            <label for="exampleInputSubject"></label>
+                            <input type="text" class="form-control form-maps" id="exampleInputSubject" placeholder="subject ...">
+                        </li>
 
-                <form class="row"><!--это можно оформить как список-->
-                    <div class="form-group col-xs-4">
-                        <label for="exampleInputName2"></label>
-                        <input type="text" class="form-control form-maps" id="exampleInputName2" placeholder="name ...">
-                    </div>
-                    <div class="form-group  col-xs-4">
-                        <label for="exampleInputEmail2"></label>
-                        <input type="email" class="form-control form-maps" id="exampleInputEmail2" placeholder="email ...">
-                    </div>
-                    <div class="form-group  col-xs-4">
-                        <label for="exampleInputSubject"></label>
-                        <input type="text" class="form-control form-maps" id="exampleInputSubject" placeholder="subject ...">
-                    </div>
-
-                    <div class="form-group  col-xs-12">
-                        <textarea  class="form-control form-maps" rows="3" placeholder="message ..."></textarea>
-                    </div>
-                    <div class="form-group text-right col-xs-12">
-                        <button type="submit" class="btn btn-default btn-maps">Send a message</button>
-                    </div>
+                        <li class="form-group  col-xs-12 col-sm-12 col-lg-12">
+                            <textarea  class="form-control form-maps" rows="3" placeholder="message ..."></textarea>
+                        </li>
+                        <li class="form-group text-right col-xs-12 col-sm-12 col-lg-12">
+                            <button type="submit" class="btn btn-default btn-maps">Send a message</button>
+                        </li>
+                    </ul>
                 </form>
-
         </section>
-        <section class="col-xs-12 col-sm-4 col-sm-offset-1  contact-maps">
+        <section class="col-xs-12 col-sm-offset-1 col-sm-4 col-lg-4 contact-maps">
             <h3 class="title-maps">
                 contac info
             </h3>
-
             <address>
                 <dl>
                     <dt>
@@ -111,8 +110,8 @@
                         Phone:
                     </dt>
                     <dd>
-                        +38 045 845-45-78<!--ссылки на тел-->
-                        <span class="span-contacts">+38 045 845-45-79</span>
+                        <a href="tel:30458454578">+38 045 845-45-78</a><!--ссылки на тел-->
+                        <a href="tel:30458454579" class="span-contacts">+38 045 845-45-79</a>
                     </dd>
                 </dl>
                 <dl>
@@ -272,8 +271,8 @@
                             Phone:
                         </dt>
                         <dd>
-                            +38 045 845-45-78
-                            +38 045 845-45-79
+                            <a href="tel:380458454578">+38 045 845-45-78 </a><!--ссылка на тел-->
+                            <a href="tel:380458454579">+38 045 845-45-79</a>
                         </dd>
                     </dl>
                     <dl>
@@ -282,7 +281,7 @@
                             E-mail:
                         </dt>
                         <dd>
-                            freeforwebdesign@gmail.com
+                            <a href="mailto:freeforwebdesign@gmail.com">freeforwebdesign@gmail.com</a>
                         </dd>
                     </dl>
                 </address>

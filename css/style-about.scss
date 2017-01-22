@@ -119,9 +119,12 @@ body{
                 font: 400 1rem/1.313rem "Century Gothic";
                 text-transform: uppercase;
                 display: inline-block;
-                width: 150px;
+                //width: 150px;
                 padding: 2px;
                 margin-bottom: 60px;
+                a{
+                    color: #ffea00;
+                }
             }
         }
     }
